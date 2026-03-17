@@ -20,7 +20,7 @@ The system combines:
 API Docs
 
 ```
-https://credlens-ai.onrender.com/docs
+[https://credlens-ai.onrender.com/docs](https://credlens-ai.onrender.com)
 ```
 
 Dashboard
