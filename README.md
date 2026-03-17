@@ -1,240 +1,241 @@
-# CredLens AI — Enterprise Credit Decisioning Platform (GenAI + RAG + Guardrails)
+# CredLens AI
 
-CredLens AI is an enterprise-style fintech decisioning system that evaluates personal loan applications using **policy-grounded GenAI**, **Retrieval-Augmented Generation (RAG)**, and **deterministic guardrails**. It ingests official loan policy documents (PDFs), retrieves relevant rules using a vector database, generates structured credit decisions (**APPROVE / REJECT / MANUAL_REVIEW**) with evidence citations, logs every case with tamper-evident audit hashes, and produces downloadable compliance reports.
+### Explainable Loan Decision System using RAG + ML
 
-This project is designed to simulate how real underwriting decision systems work inside fintech/product-based companies, where explainability, policy compliance, auditability, and safe decision boundaries matter more than “just using an LLM.”
+CredLens AI is an **AI-assisted credit decision engine** designed to simulate how modern fintech companies evaluate loan applications using machine learning, policy retrieval, and explainable AI.
 
----
+The system combines:
 
-## Key Features
-
-### 1) Policy Document Ingestion (PDF → Knowledge Base)
-- Upload loan policy PDFs
-- Extract and chunk text
-- Store chunks in ChromaDB vector database
-
-### 2) RAG Retrieval (Grounded Decisions)
-- Retrieves the most relevant policy chunks for underwriting decisions
-- Enables evidence-backed reasoning with `chunk_index` and `source` references
-
-### 3) Credit Risk Scoring (Rules + ML-ready)
-- Computes risk indicators including **DTI (Debt-to-Income Ratio)**
-- Provides `risk_score`, `risk_bucket`, and structured `reason_codes`
-- Supports ML scoring with fallback to deterministic rules
-
-### 4) Deterministic Guardrails (Fintech-Safe Decisioning)
-Final decision is never fully delegated to the LLM:
-- **DTI > 0.50 → REJECT (hard rule)**
-- **DTI ≤ 0.35 + good profile → APPROVE (hard rule)**
-- Else → **MANUAL_REVIEW**
-
-The LLM is used for explanation generation and structured output formatting.
-
-### 5) Evidence Verifier (Anti-Hallucination Guard)
-- Automatically re-verifies evidence citations using retrieval
-- Ensures reason codes map to correct policy chunks
-
-### 6) Audit Logging (Case Management)
-- Every decision is stored as a unique `case_id`
-- Stores full applicant input + risk output + decision output
-
-### 7) Tamper-Evident Audit Trail (Hash Chaining)
-- Implements `prev_hash → case_hash` chaining
-- Makes logs tamper-evident (audit-grade)
-
-### 8) Compliance Report Generator (PDF)
-- Generates a downloadable decision report for each case
-- Includes:
-  - applicant summary
-  - risk output
-  - final decision
-  - reasons with evidence citations
-  - next steps
-
-### 9) API Security (Tier-1)
-- Request authentication via `X-API-KEY` header
-
-### 10) Evaluation Suite
-- Runs regression tests using predefined decision test cases
-- Tracks decision correctness across scenarios
-
-### 11) Streamlit Dashboard (Demo UI)
-- Upload policy PDFs
-- Enter applicant details
-- Generate decision + download compliance report
+* Machine Learning risk scoring
+* Retrieval Augmented Generation (RAG)
+* Policy grounded reasoning
+* Evidence verification
+* Audit logging
+* Real-time monitoring dashboard
 
 ---
 
-## Tech Stack
+# 🚀 Live Demo
 
-**Backend**
-- FastAPI (API layer)
-- SQLModel + SQLite (audit case database)
-- ChromaDB (vector database)
-- OpenAI API (GenAI reasoning + embeddings)
-- fpdf2 (PDF report generation)
+API Docs
 
-**Frontend**
-- Streamlit (demo dashboard)
+```
+https://credlens-ai.onrender.com/docs
+```
+
+Dashboard
+
+```
+https://credlens-ai.onrender.com/dashboard/index.html
+```
 
 ---
 
-## Project Structure
+# 🧠 System Architecture
 
-```text
-credlens-ai/
-├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── routes_decision.py
-│   │   │   ├── routes_docs.py
-│   │   │   ├── routes_audit.py
-│   │   │   ├── routes_report.py
-│   │   │   └── routes_manual_review.py  (optional)
-│   │   ├── services/
-│   │   │   ├── rag_pipeline.py
-│   │   │   ├── risk_model.py
-│   │   │   ├── decision_agent.py
-│   │   │   ├── evidence_verifier.py
-│   │   │   └── report_generator.py
-│   │   ├── db/
-│   │   │   ├── session.py
-│   │   │   └── models.py
-│   │   ├── core/
-│   │   │   └── security.py
-│   │   ├── utils/
-│   │   │   ├── audit_hash.py
-│   │   │   └── doc_hash.py  (optional)
-│   │   └── main.py
-│   └── .env
+```
+User Application
+      │
+      ▼
+FastAPI Backend
+      │
+      ├── Risk Scoring Model (ML)
+      │
+      ├── RAG Policy Retrieval
+      │      └── ChromaDB Vector Store
+      │
+      ├── Decision Agent (LLM)
+      │
+      ├── Evidence Verifier
+      │
+      └── Audit Log Database
+              │
+              ▼
+      Real-time Dashboard
+```
+
+---
+
+# ⚙️ Core Features
+
+### 1️⃣ ML Risk Model
+
+Calculates risk metrics including:
+
+* Debt to Income Ratio
+* Credit History
+* Existing Loans
+* Employment Stability
+
+---
+
+### 2️⃣ Retrieval Augmented Generation
+
+Policies are retrieved using **semantic search** from:
+
+```
+ChromaDB Vector Database
+```
+
+Embedding model:
+
+```
+all-MiniLM-L6-v2
+```
+
+---
+
+### 3️⃣ Deterministic Policy Engine
+
+Hard decision rules ensure regulatory compliance.
+
+Example:
+
+```
+DTI > 0.50 → Reject
+DTI ≤ 0.35 → Approve
+Else → Manual Review
+```
+
+---
+
+### 4️⃣ Explainable AI
+
+Each decision contains:
+
+* reason codes
+* evidence references
+* policy citations
+
+---
+
+### 5️⃣ Evidence Verification
+
+Prevents hallucinated policy citations by validating LLM outputs against retrieved policy chunks.
+
+---
+
+### 6️⃣ Audit Logging
+
+Each decision is stored with:
+
+* applicant data
+* risk model output
+* policy version
+* explanation
+* cryptographic hash chain
+
+---
+
+### 7️⃣ Real-time Dashboard
+
+Displays:
+
+* total decisions
+* approvals
+* rejections
+* manual reviews
+
+Auto-refresh every **2 seconds**.
+
+---
+
+# 🧪 Evaluation
+
+Tested using **500 synthetic loan applications**.
+
+Results:
+
+```
+Accuracy: 91.2%
+Average Latency: 4.17s
+```
+
+---
+
+# 🛠 Tech Stack
+
+Backend
+
+```
+FastAPI
+SQLModel
+Python
+```
+
+Machine Learning
+
+```
+Scikit-Learn
+Pandas
+NumPy
+```
+
+Vector Database
+
+```
+ChromaDB
+SentenceTransformers
+```
+
+LLM Integration
+
+```
+OpenAI API
+```
+
+Infrastructure
+
+```
+Docker
+Render Deployment
+```
+
+---
+
+# 📂 Project Structure
+
+```
+credlens-ai
 │
-├── frontend/
-│   └── streamlit_app.py
+├── backend
+│   ├── api
+│   ├── services
+│   ├── db
+│   └── models
 │
-├── eval/
-│   ├── test_cases.json
-│   └── run_eval.py
+├── dashboard
+│   └── index.html
 │
-└── ml/
-    ├── train.py
-    └── artifacts/
-        └── risk_model.pkl
+├── docker-compose.yml
+├── Dockerfile
+└── README.md
+```
 
+---
 
-## Setup Instructions
+# 🔒 Security
 
-### 1) Clone Repo
-```bash
-git clone <your_repo_url>
-cd credlens-ai
+* API Key Authentication
+* Deterministic Policy Rules
+* Audit Hash Chain
+* Grounding Verification
 
-### 2) Backend Setup
+---
 
-```bash
-cd backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+# 📈 Future Improvements
 
-### Create .env inside backend/
-OPENAI_API_KEY=your_openai_key_here
-APP_API_KEY=credlens-secret-key
+* Human reviewer interface
+* Bias detection
+* Model monitoring
+* Credit bureau integration
+* Explainability dashboards
 
-### Run Backend
-uvicorn app.main:app --reload --port 8002
+---
 
-### Swagger UI
-http://127.0.0.1:8002/docs
+# 👩‍💻 Author
 
-### 3) Frontend Setup (Streamlit)
-cd ../frontend
-pip install streamlit requests
-streamlit run streamlit_app.py
+Mehak Goel
 
-
-## Open:
-
-http://localhost:8501
-
-## Authentication
-
-All secured endpoints require the following header:
-X-API-KEY: credlens-secret-key
-
-## Main API Endpoints
-Upload Policy PDF
--> POST /docs/upload
-
-Retrieve Policy Chunks (RAG)
--> POST /retrieve
-
-Make Underwriting Decision
--> POST /decision/
-
-List Audit Cases
--> GET /audit/cases?limit=10
-
-Get Case by ID
--> GET /audit/cases/{case_id}
-
-Download Compliance Report PDF
--> GET /report/{case_id}
-
-Example Decision Output
-{
-  "case_id": 2,
-  "case_hash": "65c7ee3e...",
-  "prev_hash": "00166ddb...",
-  "risk_output": {
-    "risk_score": 0.38,
-    "risk_bucket": "LOW",
-    "dti": 0.167,
-    "risk_engine": "rules"
-  },
-  "decision_output": {
-    "decision": "APPROVE",
-    "confidence": 0.85,
-    "reasons": [
-      {
-        "reason_code": "FORCED_DECISION",
-        "reason_text": "DTI <= 0.35 and credit history >= 12 months with low existing loans",
-        "evidence": {
-          "chunk_index": 0,
-          "source": "LoanPolicy.pdf"
-        }
-      }
-    ]
-  }
-}
-
-
-Evaluation
-
-Run automated regression tests:
-python eval/run_eval.py
-
-
-Expected output:
-
-PASS/FAIL per test case
-Final pass rate
-
-### Limitations
-ML risk model is baseline/demo unless trained on real-world repayment/default labels
-PDF extraction quality depends on document formatting
-Policy versioning and dedup improvements can be added for multi-policy environments
-Production deployment would require DB migrations + RBAC + observability
-
-### Future Improvements
-
-Policy version control and dedup ingestion
-Human review queue with role-based access control
-Audit verification endpoint (/audit/verify)
-Docker + CI/CD pipeline
-Replace heuristic confidence with calibrated confidence model
-Monitoring metrics (/metrics)
-
-### Author
-
-Built by Mehak Goel
-Focus: Fintech-ready GenAI Engineering + Enterprise Systems
+BTech Computer Science
+Machine Learning / Generative AI Engineer
