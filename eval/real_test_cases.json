@@ -1,0 +1,5502 @@
+[
+  {
+    "name": "RealCase_0",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 135075.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 10,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_1",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 16800.0,
+      "credit_history_years": 30.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_2",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 70500.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 10,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_3",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 25400.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 4,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_4",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 169050.0,
+      "credit_history_years": 18.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_5",
+    "input": {
+      "monthly_income": 2833.3333333333335,
+      "monthly_emi": 18303.333333333336,
+      "credit_history_years": 36.0,
+      "existing_loans": 12,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_6",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 69008.33333333333,
+      "credit_history_years": 22.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_7",
+    "input": {
+      "monthly_income": 9166.666666666666,
+      "monthly_emi": 148408.33333333334,
+      "credit_history_years": 21.0,
+      "existing_loans": 15,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_8",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 197600.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 21,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_9",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 47275.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 6,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_10",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 65312.49999999999,
+      "credit_history_years": 30.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_11",
+    "input": {
+      "monthly_income": 7658.333333333333,
+      "monthly_emi": 13938.166666666666,
+      "credit_history_years": 26.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_12",
+    "input": {
+      "monthly_income": 10166.666666666666,
+      "monthly_emi": 122610.0,
+      "credit_history_years": 36.0,
+      "existing_loans": 12,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_13",
+    "input": {
+      "monthly_income": 7333.333333333333,
+      "monthly_emi": 26913.333333333332,
+      "credit_history_years": 42.0,
+      "existing_loans": 21,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_14",
+    "input": {
+      "monthly_income": 1416.6666666666667,
+      "monthly_emi": 48138.33333333333,
+      "credit_history_years": 20.0,
+      "existing_loans": 10,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_15",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 192300.0,
+      "credit_history_years": 31.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_16",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 156100.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 9,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_17",
+    "input": {
+      "monthly_income": 6000.0,
+      "monthly_emi": 121979.99999999999,
+      "credit_history_years": 20.0,
+      "existing_loans": 6,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_18",
+    "input": {
+      "monthly_income": 17500.0,
+      "monthly_emi": 166775.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_19",
+    "input": {
+      "monthly_income": 6916.666666666667,
+      "monthly_emi": 127543.33333333334,
+      "credit_history_years": 21.0,
+      "existing_loans": 6,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_20",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 65000.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 9,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_21",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 112000.0,
+      "credit_history_years": 35.0,
+      "existing_loans": 9,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_22",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 221083.33333333337,
+      "credit_history_years": 24.0,
+      "existing_loans": 17,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_23",
+    "input": {
+      "monthly_income": 3356.6666666666665,
+      "monthly_emi": 24402.966666666664,
+      "credit_history_years": 29.0,
+      "existing_loans": 4,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_24",
+    "input": {
+      "monthly_income": 6833.333333333333,
+      "monthly_emi": 118284.99999999999,
+      "credit_history_years": 27.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_25",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 66091.66666666666,
+      "credit_history_years": 17.0,
+      "existing_loans": 14,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_26",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 62699.99999999999,
+      "credit_history_years": 13.0,
+      "existing_loans": 11,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_27",
+    "input": {
+      "monthly_income": 2750.0,
+      "monthly_emi": 53295.0,
+      "credit_history_years": 13.0,
+      "existing_loans": 8,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_28",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 55000.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 9,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_29",
+    "input": {
+      "monthly_income": 4000.0,
+      "monthly_emi": 11520.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 9,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_30",
+    "input": {
+      "monthly_income": 8833.333333333334,
+      "monthly_emi": 231875.00000000003,
+      "credit_history_years": 29.0,
+      "existing_loans": 15,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_31",
+    "input": {
+      "monthly_income": 20416.666666666668,
+      "monthly_emi": 508375.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 20,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_32",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 153125.0,
+      "credit_history_years": 44.0,
+      "existing_loans": 20,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_33",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 188666.6666666667,
+      "credit_history_years": 22.0,
+      "existing_loans": 14,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_34",
+    "input": {
+      "monthly_income": 11666.666666666666,
+      "monthly_emi": 161233.3333333333,
+      "credit_history_years": 33.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_35",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 0.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 3,
+      "employment_years": 1.0
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "RealCase_36",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 39712.5,
+      "credit_history_years": 23.0,
+      "existing_loans": 7,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_37",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 99516.66666666666,
+      "credit_history_years": 38.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_38",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 115812.5,
+      "credit_history_years": 20.0,
+      "existing_loans": 6,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_39",
+    "input": {
+      "monthly_income": 4466.0,
+      "monthly_emi": 31708.6,
+      "credit_history_years": 17.0,
+      "existing_loans": 4,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_40",
+    "input": {
+      "monthly_income": 1583.3333333333333,
+      "monthly_emi": 39250.83333333333,
+      "credit_history_years": 22.0,
+      "existing_loans": 6,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_41",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 117900.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 10,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_42",
+    "input": {
+      "monthly_income": 6416.666666666667,
+      "monthly_emi": 95095.0,
+      "credit_history_years": 49.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_43",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 90615.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 6,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_44",
+    "input": {
+      "monthly_income": 10833.333333333334,
+      "monthly_emi": 146358.33333333334,
+      "credit_history_years": 35.0,
+      "existing_loans": 11,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_45",
+    "input": {
+      "monthly_income": 6358.333333333333,
+      "monthly_emi": 68097.75,
+      "credit_history_years": 46.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_46",
+    "input": {
+      "monthly_income": 15833.333333333334,
+      "monthly_emi": 42433.333333333336,
+      "credit_history_years": 22.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_47",
+    "input": {
+      "monthly_income": 3416.6666666666665,
+      "monthly_emi": 87808.33333333333,
+      "credit_history_years": 18.0,
+      "existing_loans": 7,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_48",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 9100.0,
+      "credit_history_years": 14.0,
+      "existing_loans": 7,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_49",
+    "input": {
+      "monthly_income": 7333.333333333333,
+      "monthly_emi": 126426.66666666666,
+      "credit_history_years": 22.0,
+      "existing_loans": 25,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_50",
+    "input": {
+      "monthly_income": 9583.333333333334,
+      "monthly_emi": 179400.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 15,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_51",
+    "input": {
+      "monthly_income": 7977.583333333333,
+      "monthly_emi": 156679.73666666666,
+      "credit_history_years": 24.0,
+      "existing_loans": 15,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_52",
+    "input": {
+      "monthly_income": 10583.333333333334,
+      "monthly_emi": 96520.0,
+      "credit_history_years": 13.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_53",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 143187.5,
+      "credit_history_years": 33.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_54",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 124891.66666666666,
+      "credit_history_years": 18.0,
+      "existing_loans": 6,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_55",
+    "input": {
+      "monthly_income": 1833.3333333333333,
+      "monthly_emi": 23925.0,
+      "credit_history_years": 42.0,
+      "existing_loans": 3,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_56",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 126000.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 23,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_57",
+    "input": {
+      "monthly_income": 6083.333333333333,
+      "monthly_emi": 237736.66666666666,
+      "credit_history_years": 19.0,
+      "existing_loans": 24,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_58",
+    "input": {
+      "monthly_income": 6333.333333333333,
+      "monthly_emi": 92593.33333333333,
+      "credit_history_years": 17.0,
+      "existing_loans": 14,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_59",
+    "input": {
+      "monthly_income": 15666.666666666666,
+      "monthly_emi": 182360.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 24,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_60",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 50625.00000000001,
+      "credit_history_years": 19.0,
+      "existing_loans": 13,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_61",
+    "input": {
+      "monthly_income": 4833.333333333333,
+      "monthly_emi": 60803.33333333333,
+      "credit_history_years": 22.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_62",
+    "input": {
+      "monthly_income": 8750.0,
+      "monthly_emi": 146387.5,
+      "credit_history_years": 36.0,
+      "existing_loans": 6,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_63",
+    "input": {
+      "monthly_income": 9500.0,
+      "monthly_emi": 267235.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 17,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_64",
+    "input": {
+      "monthly_income": 12500.0,
+      "monthly_emi": 98625.0,
+      "credit_history_years": 34.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_65",
+    "input": {
+      "monthly_income": 5750.0,
+      "monthly_emi": 88665.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 8,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_66",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 81000.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 23,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_67",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 86400.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 13,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_68",
+    "input": {
+      "monthly_income": 6166.666666666667,
+      "monthly_emi": 197703.33333333334,
+      "credit_history_years": 27.0,
+      "existing_loans": 9,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_69",
+    "input": {
+      "monthly_income": 2083.3333333333335,
+      "monthly_emi": 7708.333333333334,
+      "credit_history_years": 54.0,
+      "existing_loans": 4,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_70",
+    "input": {
+      "monthly_income": 2666.6666666666665,
+      "monthly_emi": 58906.666666666664,
+      "credit_history_years": 28.0,
+      "existing_loans": 6,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_71",
+    "input": {
+      "monthly_income": 2583.3333333333335,
+      "monthly_emi": 42005.00000000001,
+      "credit_history_years": 17.0,
+      "existing_loans": 21,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_72",
+    "input": {
+      "monthly_income": 5333.333333333333,
+      "monthly_emi": 46506.666666666664,
+      "credit_history_years": 16.0,
+      "existing_loans": 5,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_73",
+    "input": {
+      "monthly_income": 2000.0,
+      "monthly_emi": 32600.0,
+      "credit_history_years": 15.0,
+      "existing_loans": 11,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_74",
+    "input": {
+      "monthly_income": 6416.666666666667,
+      "monthly_emi": 102923.33333333333,
+      "credit_history_years": 14.0,
+      "existing_loans": 16,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_75",
+    "input": {
+      "monthly_income": 2583.3333333333335,
+      "monthly_emi": 73418.33333333334,
+      "credit_history_years": 25.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_76",
+    "input": {
+      "monthly_income": 1160.8333333333333,
+      "monthly_emi": 25468.683333333334,
+      "credit_history_years": 16.0,
+      "existing_loans": 6,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_77",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 96100.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 14,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_78",
+    "input": {
+      "monthly_income": 3482.25,
+      "monthly_emi": 131420.11500000002,
+      "credit_history_years": 34.0,
+      "existing_loans": 11,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_79",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 57900.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 18,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_80",
+    "input": {
+      "monthly_income": 6416.666666666667,
+      "monthly_emi": 118002.50000000001,
+      "credit_history_years": 25.0,
+      "existing_loans": 7,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_81",
+    "input": {
+      "monthly_income": 6000.0,
+      "monthly_emi": 163380.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 13,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_82",
+    "input": {
+      "monthly_income": 13750.0,
+      "monthly_emi": 153175.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 8,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_83",
+    "input": {
+      "monthly_income": 3583.3333333333335,
+      "monthly_emi": 5590.0,
+      "credit_history_years": 42.0,
+      "existing_loans": 15,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_84",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 130800.00000000001,
+      "credit_history_years": 27.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_85",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 90645.83333333333,
+      "credit_history_years": 51.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_86",
+    "input": {
+      "monthly_income": 12666.666666666666,
+      "monthly_emi": 267140.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 18,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_87",
+    "input": {
+      "monthly_income": 4125.0,
+      "monthly_emi": 143797.5,
+      "credit_history_years": 20.0,
+      "existing_loans": 14,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_88",
+    "input": {
+      "monthly_income": 2666.6666666666665,
+      "monthly_emi": 36720.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 15,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_89",
+    "input": {
+      "monthly_income": 6500.0,
+      "monthly_emi": 62464.99999999999,
+      "credit_history_years": 30.0,
+      "existing_loans": 15,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_90",
+    "input": {
+      "monthly_income": 4333.333333333333,
+      "monthly_emi": 105690.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_91",
+    "input": {
+      "monthly_income": 12250.0,
+      "monthly_emi": 63210.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_92",
+    "input": {
+      "monthly_income": 11666.666666666666,
+      "monthly_emi": 332850.0,
+      "credit_history_years": 43.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_93",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 86416.66666666667,
+      "credit_history_years": 24.0,
+      "existing_loans": 28,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_94",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 56008.333333333336,
+      "credit_history_years": 26.0,
+      "existing_loans": 16,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_95",
+    "input": {
+      "monthly_income": 15833.333333333334,
+      "monthly_emi": 250800.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 10,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_96",
+    "input": {
+      "monthly_income": 10500.0,
+      "monthly_emi": 40110.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 3,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_97",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 122550.00000000001,
+      "credit_history_years": 16.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_98",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 94400.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_99",
+    "input": {
+      "monthly_income": 1916.6666666666667,
+      "monthly_emi": 95028.33333333333,
+      "credit_history_years": 32.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_100",
+    "input": {
+      "monthly_income": 5500.0,
+      "monthly_emi": 72985.0,
+      "credit_history_years": 36.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_101",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 83600.0,
+      "credit_history_years": 14.0,
+      "existing_loans": 11,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_102",
+    "input": {
+      "monthly_income": 8416.666666666666,
+      "monthly_emi": 155708.3333333333,
+      "credit_history_years": 21.0,
+      "existing_loans": 15,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_103",
+    "input": {
+      "monthly_income": 9416.666666666666,
+      "monthly_emi": 143886.66666666666,
+      "credit_history_years": 24.0,
+      "existing_loans": 21,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_104",
+    "input": {
+      "monthly_income": 5083.333333333333,
+      "monthly_emi": 96837.5,
+      "credit_history_years": 28.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_105",
+    "input": {
+      "monthly_income": 2333.3333333333335,
+      "monthly_emi": 62906.66666666667,
+      "credit_history_years": 15.0,
+      "existing_loans": 10,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_106",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 135187.5,
+      "credit_history_years": 22.0,
+      "existing_loans": 17,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_107",
+    "input": {
+      "monthly_income": 3666.6666666666665,
+      "monthly_emi": 90823.33333333333,
+      "credit_history_years": 15.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_108",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 91800.0,
+      "credit_history_years": 15.0,
+      "existing_loans": 5,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_109",
+    "input": {
+      "monthly_income": 3916.6666666666665,
+      "monthly_emi": 74103.33333333334,
+      "credit_history_years": 22.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_110",
+    "input": {
+      "monthly_income": 4833.333333333333,
+      "monthly_emi": 70856.66666666666,
+      "credit_history_years": 12.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_111",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 135574.99999999997,
+      "credit_history_years": 30.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_112",
+    "input": {
+      "monthly_income": 2651.0,
+      "monthly_emi": 100287.33,
+      "credit_history_years": 26.0,
+      "existing_loans": 8,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_113",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 106795.83333333334,
+      "credit_history_years": 27.0,
+      "existing_loans": 9,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_114",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 159033.33333333334,
+      "credit_history_years": 26.0,
+      "existing_loans": 12,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_115",
+    "input": {
+      "monthly_income": 20833.333333333332,
+      "monthly_emi": 23333.333333333336,
+      "credit_history_years": 26.0,
+      "existing_loans": 9,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_116",
+    "input": {
+      "monthly_income": 4600.0,
+      "monthly_emi": 85882.00000000001,
+      "credit_history_years": 26.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_117",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 88305.0,
+      "credit_history_years": 27.0,
+      "existing_loans": 9,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_118",
+    "input": {
+      "monthly_income": 2565.3333333333335,
+      "monthly_emi": 70700.58666666667,
+      "credit_history_years": 36.0,
+      "existing_loans": 7,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_119",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 134400.0,
+      "credit_history_years": 16.0,
+      "existing_loans": 23,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_120",
+    "input": {
+      "monthly_income": 10000.0,
+      "monthly_emi": 214500.0,
+      "credit_history_years": 27.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_121",
+    "input": {
+      "monthly_income": 5250.0,
+      "monthly_emi": 80325.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 11,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_122",
+    "input": {
+      "monthly_income": 12916.666666666666,
+      "monthly_emi": 208345.8333333333,
+      "credit_history_years": 21.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_123",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 9700.000000000002,
+      "credit_history_years": 12.0,
+      "existing_loans": 4,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_124",
+    "input": {
+      "monthly_income": 3541.6666666666665,
+      "monthly_emi": 65697.91666666667,
+      "credit_history_years": 16.0,
+      "existing_loans": 6,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_125",
+    "input": {
+      "monthly_income": 19166.666666666668,
+      "monthly_emi": 176141.66666666666,
+      "credit_history_years": 28.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_126",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 52875.00000000001,
+      "credit_history_years": 18.0,
+      "existing_loans": 18,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_127",
+    "input": {
+      "monthly_income": 2000.0,
+      "monthly_emi": 19600.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 6,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_128",
+    "input": {
+      "monthly_income": 9166.666666666666,
+      "monthly_emi": 106516.66666666666,
+      "credit_history_years": 20.0,
+      "existing_loans": 6,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_129",
+    "input": {
+      "monthly_income": 14333.333333333334,
+      "monthly_emi": 348443.3333333333,
+      "credit_history_years": 23.0,
+      "existing_loans": 17,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_130",
+    "input": {
+      "monthly_income": 12083.333333333334,
+      "monthly_emi": 177141.6666666667,
+      "credit_history_years": 23.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_131",
+    "input": {
+      "monthly_income": 7083.333333333333,
+      "monthly_emi": 161004.16666666666,
+      "credit_history_years": 37.0,
+      "existing_loans": 9,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_132",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 34685.0,
+      "credit_history_years": 30.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_133",
+    "input": {
+      "monthly_income": 3000.0,
+      "monthly_emi": 88410.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 5,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_134",
+    "input": {
+      "monthly_income": 1416.6666666666667,
+      "monthly_emi": 39213.333333333336,
+      "credit_history_years": 24.0,
+      "existing_loans": 12,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_135",
+    "input": {
+      "monthly_income": 3083.3333333333335,
+      "monthly_emi": 13104.166666666668,
+      "credit_history_years": 21.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_136",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 63637.49999999999,
+      "credit_history_years": 12.0,
+      "existing_loans": 8,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_137",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 64800.00000000001,
+      "credit_history_years": 26.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_138",
+    "input": {
+      "monthly_income": 15166.666666666666,
+      "monthly_emi": 91909.99999999999,
+      "credit_history_years": 21.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_139",
+    "input": {
+      "monthly_income": 4250.0,
+      "monthly_emi": 73312.5,
+      "credit_history_years": 32.0,
+      "existing_loans": 8,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_140",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 87487.5,
+      "credit_history_years": 29.0,
+      "existing_loans": 19,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_141",
+    "input": {
+      "monthly_income": 2600.0,
+      "monthly_emi": 86294.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_142",
+    "input": {
+      "monthly_income": 2273.1666666666665,
+      "monthly_emi": 45304.21166666666,
+      "credit_history_years": 20.0,
+      "existing_loans": 9,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_143",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 95687.5,
+      "credit_history_years": 25.0,
+      "existing_loans": 23,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_144",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 190666.6666666667,
+      "credit_history_years": 35.0,
+      "existing_loans": 9,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_145",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 50400.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 3,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_146",
+    "input": {
+      "monthly_income": 5500.0,
+      "monthly_emi": 33605.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 4,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_147",
+    "input": {
+      "monthly_income": 7416.666666666667,
+      "monthly_emi": 138320.8333333333,
+      "credit_history_years": 25.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_148",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 112833.33333333333,
+      "credit_history_years": 21.0,
+      "existing_loans": 11,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_149",
+    "input": {
+      "monthly_income": 8250.0,
+      "monthly_emi": 96772.5,
+      "credit_history_years": 21.0,
+      "existing_loans": 12,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_150",
+    "input": {
+      "monthly_income": 12500.0,
+      "monthly_emi": 97750.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 22,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_151",
+    "input": {
+      "monthly_income": 4750.0,
+      "monthly_emi": 89680.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 22,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_152",
+    "input": {
+      "monthly_income": 8250.0,
+      "monthly_emi": 171435.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_153",
+    "input": {
+      "monthly_income": 3666.6666666666665,
+      "monthly_emi": 71206.66666666667,
+      "credit_history_years": 28.0,
+      "existing_loans": 6,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_154",
+    "input": {
+      "monthly_income": 0.0,
+      "monthly_emi": NaN,
+      "credit_history_years": 19.0,
+      "existing_loans": 9,
+      "employment_years": NaN
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "RealCase_155",
+    "input": {
+      "monthly_income": 8083.333333333333,
+      "monthly_emi": 2667.5,
+      "credit_history_years": 18.0,
+      "existing_loans": 6,
+      "employment_years": 4.0
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "RealCase_156",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 21400.0,
+      "credit_history_years": 37.0,
+      "existing_loans": 3,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_157",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 59000.00000000001,
+      "credit_history_years": 24.0,
+      "existing_loans": 5,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_158",
+    "input": {
+      "monthly_income": 9583.333333333334,
+      "monthly_emi": 123529.16666666669,
+      "credit_history_years": 40.0,
+      "existing_loans": 12,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_159",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 66133.33333333334,
+      "credit_history_years": 23.0,
+      "existing_loans": 11,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_160",
+    "input": {
+      "monthly_income": 1250.0,
+      "monthly_emi": 9000.0,
+      "credit_history_years": 12.0,
+      "existing_loans": 4,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_161",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 135300.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 13,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_162",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 55416.66666666667,
+      "credit_history_years": 18.0,
+      "existing_loans": 13,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_163",
+    "input": {
+      "monthly_income": 7583.333333333333,
+      "monthly_emi": 189507.49999999997,
+      "credit_history_years": 24.0,
+      "existing_loans": 23,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_164",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 3375.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_165",
+    "input": {
+      "monthly_income": 15166.666666666666,
+      "monthly_emi": 253586.66666666663,
+      "credit_history_years": 23.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_166",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 57525.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 13,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_167",
+    "input": {
+      "monthly_income": 10125.0,
+      "monthly_emi": 398317.50000000006,
+      "credit_history_years": 28.0,
+      "existing_loans": 13,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_168",
+    "input": {
+      "monthly_income": 14166.666666666666,
+      "monthly_emi": 201591.66666666666,
+      "credit_history_years": 29.0,
+      "existing_loans": 16,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_169",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 127108.33333333333,
+      "credit_history_years": 22.0,
+      "existing_loans": 8,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_170",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 29800.0,
+      "credit_history_years": 32.0,
+      "existing_loans": 5,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_171",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 187416.66666666666,
+      "credit_history_years": 30.0,
+      "existing_loans": 12,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_172",
+    "input": {
+      "monthly_income": 5666.666666666667,
+      "monthly_emi": 97920.00000000001,
+      "credit_history_years": 13.0,
+      "existing_loans": 31,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_173",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 159141.66666666666,
+      "credit_history_years": 26.0,
+      "existing_loans": 15,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_174",
+    "input": {
+      "monthly_income": 3541.6666666666665,
+      "monthly_emi": 87018.75,
+      "credit_history_years": 19.0,
+      "existing_loans": 7,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_175",
+    "input": {
+      "monthly_income": 4333.333333333333,
+      "monthly_emi": 92300.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_176",
+    "input": {
+      "monthly_income": 5687.5,
+      "monthly_emi": 49083.12500000001,
+      "credit_history_years": 27.0,
+      "existing_loans": 14,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_177",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 39691.666666666664,
+      "credit_history_years": 12.0,
+      "existing_loans": 6,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_178",
+    "input": {
+      "monthly_income": 7083.333333333333,
+      "monthly_emi": 187637.49999999997,
+      "credit_history_years": 31.0,
+      "existing_loans": 20,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_179",
+    "input": {
+      "monthly_income": 26500.0,
+      "monthly_emi": 221804.99999999997,
+      "credit_history_years": 24.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_180",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 89695.83333333334,
+      "credit_history_years": 18.0,
+      "existing_loans": 7,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_181",
+    "input": {
+      "monthly_income": 5916.666666666667,
+      "monthly_emi": 91590.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_182",
+    "input": {
+      "monthly_income": 3433.3333333333335,
+      "monthly_emi": 58195.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 9,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_183",
+    "input": {
+      "monthly_income": 3674.0,
+      "monthly_emi": 102614.81999999999,
+      "credit_history_years": 34.0,
+      "existing_loans": 18,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_184",
+    "input": {
+      "monthly_income": 1250.0,
+      "monthly_emi": 7337.5,
+      "credit_history_years": 26.0,
+      "existing_loans": 7,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_185",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 98325.0,
+      "credit_history_years": 31.0,
+      "existing_loans": 5,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_186",
+    "input": {
+      "monthly_income": 7333.333333333333,
+      "monthly_emi": 95626.66666666666,
+      "credit_history_years": 28.0,
+      "existing_loans": 11,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_187",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 217479.16666666666,
+      "credit_history_years": 23.0,
+      "existing_loans": 17,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_188",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 79200.00000000001,
+      "credit_history_years": 29.0,
+      "existing_loans": 9,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_189",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 95287.5,
+      "credit_history_years": 19.0,
+      "existing_loans": 14,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_190",
+    "input": {
+      "monthly_income": 12500.0,
+      "monthly_emi": 116625.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 5,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_191",
+    "input": {
+      "monthly_income": 5750.0,
+      "monthly_emi": 159505.0,
+      "credit_history_years": 18.0,
+      "existing_loans": 16,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_192",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 67112.5,
+      "credit_history_years": 28.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_193",
+    "input": {
+      "monthly_income": 3250.0,
+      "monthly_emi": 35197.5,
+      "credit_history_years": 43.0,
+      "existing_loans": 4,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_194",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 297225.0,
+      "credit_history_years": 16.0,
+      "existing_loans": 10,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_195",
+    "input": {
+      "monthly_income": 6833.333333333333,
+      "monthly_emi": 123615.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 16,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_196",
+    "input": {
+      "monthly_income": 6833.333333333333,
+      "monthly_emi": 48380.0,
+      "credit_history_years": 16.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_197",
+    "input": {
+      "monthly_income": 2250.0,
+      "monthly_emi": 5715.0,
+      "credit_history_years": 27.0,
+      "existing_loans": 3,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_198",
+    "input": {
+      "monthly_income": 7666.666666666667,
+      "monthly_emi": 194196.66666666666,
+      "credit_history_years": 25.0,
+      "existing_loans": 8,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_199",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 89700.0,
+      "credit_history_years": 38.0,
+      "existing_loans": 12,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_200",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 99066.66666666667,
+      "credit_history_years": 20.0,
+      "existing_loans": 10,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_201",
+    "input": {
+      "monthly_income": 14166.666666666666,
+      "monthly_emi": 321016.6666666666,
+      "credit_history_years": 34.0,
+      "existing_loans": 22,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_202",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 14200.0,
+      "credit_history_years": 29.0,
+      "existing_loans": 4,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_203",
+    "input": {
+      "monthly_income": 4375.0,
+      "monthly_emi": 42568.75,
+      "credit_history_years": 19.0,
+      "existing_loans": 7,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_204",
+    "input": {
+      "monthly_income": 2083.3333333333335,
+      "monthly_emi": 5791.666666666667,
+      "credit_history_years": 32.0,
+      "existing_loans": 9,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_205",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 227908.3333333333,
+      "credit_history_years": 20.0,
+      "existing_loans": 27,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_206",
+    "input": {
+      "monthly_income": 1333.3333333333333,
+      "monthly_emi": 33906.666666666664,
+      "credit_history_years": 12.0,
+      "existing_loans": 7,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_207",
+    "input": {
+      "monthly_income": 10416.666666666666,
+      "monthly_emi": 25729.166666666668,
+      "credit_history_years": 14.0,
+      "existing_loans": 6,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_208",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 114600.00000000001,
+      "credit_history_years": 42.0,
+      "existing_loans": 19,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_209",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 230916.6666666667,
+      "credit_history_years": 40.0,
+      "existing_loans": 17,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_210",
+    "input": {
+      "monthly_income": 17083.333333333332,
+      "monthly_emi": 239849.99999999997,
+      "credit_history_years": 23.0,
+      "existing_loans": 8,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_211",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 44212.5,
+      "credit_history_years": 19.0,
+      "existing_loans": 6,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_212",
+    "input": {
+      "monthly_income": 2204.0,
+      "monthly_emi": 67310.16,
+      "credit_history_years": 18.0,
+      "existing_loans": 7,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_213",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 139725.0,
+      "credit_history_years": 29.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_214",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 122600.00000000001,
+      "credit_history_years": 33.0,
+      "existing_loans": 14,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_215",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 139200.0,
+      "credit_history_years": 48.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_216",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 46200.0,
+      "credit_history_years": 15.0,
+      "existing_loans": 7,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_217",
+    "input": {
+      "monthly_income": 2083.3333333333335,
+      "monthly_emi": 29812.500000000004,
+      "credit_history_years": 28.0,
+      "existing_loans": 14,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_218",
+    "input": {
+      "monthly_income": 6166.666666666667,
+      "monthly_emi": 88738.33333333334,
+      "credit_history_years": 20.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_219",
+    "input": {
+      "monthly_income": 9964.0,
+      "monthly_emi": 219606.56,
+      "credit_history_years": 20.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_220",
+    "input": {
+      "monthly_income": 1666.6666666666667,
+      "monthly_emi": 0.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 7,
+      "employment_years": NaN
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "RealCase_221",
+    "input": {
+      "monthly_income": 12583.333333333334,
+      "monthly_emi": 198942.50000000003,
+      "credit_history_years": 39.0,
+      "existing_loans": 17,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_222",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 161000.0,
+      "credit_history_years": 31.0,
+      "existing_loans": 11,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_223",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 84933.33333333333,
+      "credit_history_years": 23.0,
+      "existing_loans": 18,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_224",
+    "input": {
+      "monthly_income": 7000.0,
+      "monthly_emi": 52990.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 2,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_225",
+    "input": {
+      "monthly_income": 16666.666666666668,
+      "monthly_emi": 177833.33333333334,
+      "credit_history_years": 23.0,
+      "existing_loans": 14,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_226",
+    "input": {
+      "monthly_income": 2083.3333333333335,
+      "monthly_emi": 65854.16666666667,
+      "credit_history_years": 13.0,
+      "existing_loans": 5,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_227",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 43500.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 4,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_228",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 81520.83333333334,
+      "credit_history_years": 22.0,
+      "existing_loans": 18,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_229",
+    "input": {
+      "monthly_income": 1250.0,
+      "monthly_emi": 36200.0,
+      "credit_history_years": 13.0,
+      "existing_loans": 12,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_230",
+    "input": {
+      "monthly_income": 4333.333333333333,
+      "monthly_emi": 9879.999999999998,
+      "credit_history_years": 21.0,
+      "existing_loans": 5,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_231",
+    "input": {
+      "monthly_income": 3666.6666666666665,
+      "monthly_emi": 47300.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 12,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_232",
+    "input": {
+      "monthly_income": 12083.333333333334,
+      "monthly_emi": 200220.83333333334,
+      "credit_history_years": 44.0,
+      "existing_loans": 19,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_233",
+    "input": {
+      "monthly_income": 4000.0,
+      "monthly_emi": 72120.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 11,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_234",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 91000.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 5,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_235",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 16304.166666666666,
+      "credit_history_years": 21.0,
+      "existing_loans": 9,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_236",
+    "input": {
+      "monthly_income": 2750.0,
+      "monthly_emi": 74305.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 9,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_237",
+    "input": {
+      "monthly_income": 16333.333333333334,
+      "monthly_emi": 398206.6666666667,
+      "credit_history_years": 26.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_238",
+    "input": {
+      "monthly_income": 6333.333333333333,
+      "monthly_emi": 72516.66666666666,
+      "credit_history_years": 19.0,
+      "existing_loans": 10,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_239",
+    "input": {
+      "monthly_income": 4083.3333333333335,
+      "monthly_emi": 117600.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 21,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_240",
+    "input": {
+      "monthly_income": 22916.666666666668,
+      "monthly_emi": 254833.33333333334,
+      "credit_history_years": 28.0,
+      "existing_loans": 14,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_241",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 89800.00000000001,
+      "credit_history_years": 19.0,
+      "existing_loans": 21,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_242",
+    "input": {
+      "monthly_income": 2958.3333333333335,
+      "monthly_emi": 50084.583333333336,
+      "credit_history_years": 19.0,
+      "existing_loans": 10,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_243",
+    "input": {
+      "monthly_income": 10833.333333333334,
+      "monthly_emi": 156325.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 10,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_244",
+    "input": {
+      "monthly_income": 4666.666666666667,
+      "monthly_emi": 75040.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 5,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_245",
+    "input": {
+      "monthly_income": 12500.0,
+      "monthly_emi": 415374.99999999994,
+      "credit_history_years": 57.0,
+      "existing_loans": 18,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_246",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 158200.0,
+      "credit_history_years": 30.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_247",
+    "input": {
+      "monthly_income": 8750.0,
+      "monthly_emi": 125737.5,
+      "credit_history_years": 21.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_248",
+    "input": {
+      "monthly_income": 6000.0,
+      "monthly_emi": 127920.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_249",
+    "input": {
+      "monthly_income": 8000.0,
+      "monthly_emi": 149280.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_250",
+    "input": {
+      "monthly_income": 2941.6666666666665,
+      "monthly_emi": 80013.33333333333,
+      "credit_history_years": 20.0,
+      "existing_loans": 13,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_251",
+    "input": {
+      "monthly_income": 6083.333333333333,
+      "monthly_emi": 148311.66666666666,
+      "credit_history_years": 44.0,
+      "existing_loans": 23,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_252",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 71791.66666666667,
+      "credit_history_years": 21.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_253",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 45208.33333333333,
+      "credit_history_years": 34.0,
+      "existing_loans": 10,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_254",
+    "input": {
+      "monthly_income": 29166.666666666668,
+      "monthly_emi": 181125.0,
+      "credit_history_years": 40.0,
+      "existing_loans": 13,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_255",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 145600.0,
+      "credit_history_years": 29.0,
+      "existing_loans": 17,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_256",
+    "input": {
+      "monthly_income": 7151.666666666667,
+      "monthly_emi": 139028.40000000002,
+      "credit_history_years": 27.0,
+      "existing_loans": 10,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_257",
+    "input": {
+      "monthly_income": 22916.666666666668,
+      "monthly_emi": 440000.0,
+      "credit_history_years": 31.0,
+      "existing_loans": 13,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_258",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 122324.99999999999,
+      "credit_history_years": 35.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_259",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 159900.0,
+      "credit_history_years": 41.0,
+      "existing_loans": 12,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_260",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 65587.5,
+      "credit_history_years": 22.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_261",
+    "input": {
+      "monthly_income": 4666.666666666667,
+      "monthly_emi": 150826.6666666667,
+      "credit_history_years": 17.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_262",
+    "input": {
+      "monthly_income": 4875.0,
+      "monthly_emi": 88578.75000000001,
+      "credit_history_years": 18.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_263",
+    "input": {
+      "monthly_income": 14166.666666666666,
+      "monthly_emi": 102000.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 8,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_264",
+    "input": {
+      "monthly_income": 2785.661666666667,
+      "monthly_emi": 9694.1026,
+      "credit_history_years": 27.0,
+      "existing_loans": 6,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_265",
+    "input": {
+      "monthly_income": 800.0,
+      "monthly_emi": 16584.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 5,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_266",
+    "input": {
+      "monthly_income": 7666.666666666667,
+      "monthly_emi": 71836.66666666666,
+      "credit_history_years": 18.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_267",
+    "input": {
+      "monthly_income": 1003.0,
+      "monthly_emi": 74603.14,
+      "credit_history_years": 50.0,
+      "existing_loans": 12,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_268",
+    "input": {
+      "monthly_income": 4083.3333333333335,
+      "monthly_emi": 62393.333333333336,
+      "credit_history_years": 27.0,
+      "existing_loans": 17,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_269",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 26512.5,
+      "credit_history_years": 20.0,
+      "existing_loans": 6,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_270",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 10704.166666666666,
+      "credit_history_years": 16.0,
+      "existing_loans": 8,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_271",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 11250.000000000002,
+      "credit_history_years": 13.0,
+      "existing_loans": 3,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_272",
+    "input": {
+      "monthly_income": 8166.666666666667,
+      "monthly_emi": 131238.33333333334,
+      "credit_history_years": 29.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_273",
+    "input": {
+      "monthly_income": 1700.0,
+      "monthly_emi": 16694.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 6,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_274",
+    "input": {
+      "monthly_income": 9000.0,
+      "monthly_emi": 189719.99999999997,
+      "credit_history_years": 40.0,
+      "existing_loans": 22,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_275",
+    "input": {
+      "monthly_income": 5443.21,
+      "monthly_emi": 120730.3978,
+      "credit_history_years": 15.0,
+      "existing_loans": 7,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_276",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 102900.0,
+      "credit_history_years": 32.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_277",
+    "input": {
+      "monthly_income": 4333.333333333333,
+      "monthly_emi": 66300.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_278",
+    "input": {
+      "monthly_income": 9083.333333333334,
+      "monthly_emi": 125531.66666666667,
+      "credit_history_years": 44.0,
+      "existing_loans": 10,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_279",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 86341.66666666667,
+      "credit_history_years": 15.0,
+      "existing_loans": 20,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_280",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 52799.99999999999,
+      "credit_history_years": 18.0,
+      "existing_loans": 4,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_281",
+    "input": {
+      "monthly_income": 4833.333333333333,
+      "monthly_emi": 89320.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_282",
+    "input": {
+      "monthly_income": 7000.0,
+      "monthly_emi": 158200.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_283",
+    "input": {
+      "monthly_income": 7083.333333333333,
+      "monthly_emi": 150308.3333333333,
+      "credit_history_years": 21.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_284",
+    "input": {
+      "monthly_income": 2750.0,
+      "monthly_emi": 56594.99999999999,
+      "credit_history_years": 52.0,
+      "existing_loans": 10,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_285",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 24000.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 5,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_286",
+    "input": {
+      "monthly_income": 3900.0,
+      "monthly_emi": 64818.00000000001,
+      "credit_history_years": 26.0,
+      "existing_loans": 5,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_287",
+    "input": {
+      "monthly_income": 4000.0,
+      "monthly_emi": 61520.0,
+      "credit_history_years": 39.0,
+      "existing_loans": 6,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_288",
+    "input": {
+      "monthly_income": 5647.0,
+      "monthly_emi": 99500.14,
+      "credit_history_years": 31.0,
+      "existing_loans": 8,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_289",
+    "input": {
+      "monthly_income": 2166.6666666666665,
+      "monthly_emi": 23508.333333333332,
+      "credit_history_years": 43.0,
+      "existing_loans": 4,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_290",
+    "input": {
+      "monthly_income": 20416.666666666668,
+      "monthly_emi": 740104.1666666667,
+      "credit_history_years": 25.0,
+      "existing_loans": 12,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_291",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 102300.0,
+      "credit_history_years": 32.0,
+      "existing_loans": 11,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_292",
+    "input": {
+      "monthly_income": 2000.0,
+      "monthly_emi": 2500.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 16,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_293",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 5000.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 4,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_294",
+    "input": {
+      "monthly_income": 4333.333333333333,
+      "monthly_emi": 52346.666666666664,
+      "credit_history_years": 20.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_295",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 80208.33333333333,
+      "credit_history_years": 20.0,
+      "existing_loans": 12,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_296",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 71583.33333333334,
+      "credit_history_years": 14.0,
+      "existing_loans": 8,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_297",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 149545.83333333334,
+      "credit_history_years": 25.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_298",
+    "input": {
+      "monthly_income": 6500.0,
+      "monthly_emi": 129804.99999999999,
+      "credit_history_years": 30.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_299",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 200741.6666666667,
+      "credit_history_years": 36.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_300",
+    "input": {
+      "monthly_income": 7083.333333333333,
+      "monthly_emi": 124737.49999999999,
+      "credit_history_years": 24.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_301",
+    "input": {
+      "monthly_income": 11500.0,
+      "monthly_emi": 316365.0,
+      "credit_history_years": 32.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_302",
+    "input": {
+      "monthly_income": 6075.0,
+      "monthly_emi": 127878.75,
+      "credit_history_years": 23.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_303",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 320416.6666666667,
+      "credit_history_years": 19.0,
+      "existing_loans": 38,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_304",
+    "input": {
+      "monthly_income": 2583.3333333333335,
+      "monthly_emi": 46396.66666666667,
+      "credit_history_years": 30.0,
+      "existing_loans": 9,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_305",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 49637.5,
+      "credit_history_years": 13.0,
+      "existing_loans": 6,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_306",
+    "input": {
+      "monthly_income": 2333.3333333333335,
+      "monthly_emi": 26506.666666666668,
+      "credit_history_years": 18.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_307",
+    "input": {
+      "monthly_income": 9583.333333333334,
+      "monthly_emi": 87304.16666666667,
+      "credit_history_years": 21.0,
+      "existing_loans": 13,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_308",
+    "input": {
+      "monthly_income": 20833.333333333332,
+      "monthly_emi": 113333.33333333333,
+      "credit_history_years": 24.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_309",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 103066.66666666667,
+      "credit_history_years": 19.0,
+      "existing_loans": 22,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_310",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 24000.0,
+      "credit_history_years": 18.0,
+      "existing_loans": 9,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_311",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 10083.333333333334,
+      "credit_history_years": 41.0,
+      "existing_loans": 6,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_312",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 199091.66666666666,
+      "credit_history_years": 19.0,
+      "existing_loans": 11,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_313",
+    "input": {
+      "monthly_income": 9083.333333333334,
+      "monthly_emi": 160593.33333333334,
+      "credit_history_years": 19.0,
+      "existing_loans": 9,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_314",
+    "input": {
+      "monthly_income": 18333.333333333332,
+      "monthly_emi": 330183.3333333333,
+      "credit_history_years": 42.0,
+      "existing_loans": 17,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_315",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 74812.49999999999,
+      "credit_history_years": 20.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_316",
+    "input": {
+      "monthly_income": 3944.0,
+      "monthly_emi": 40189.36,
+      "credit_history_years": 23.0,
+      "existing_loans": 5,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_317",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 181275.0,
+      "credit_history_years": 31.0,
+      "existing_loans": 14,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_318",
+    "input": {
+      "monthly_income": 1416.6666666666667,
+      "monthly_emi": 7706.666666666668,
+      "credit_history_years": 14.0,
+      "existing_loans": 4,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_319",
+    "input": {
+      "monthly_income": 20000.0,
+      "monthly_emi": 189800.0,
+      "credit_history_years": 31.0,
+      "existing_loans": 17,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_320",
+    "input": {
+      "monthly_income": 5166.666666666667,
+      "monthly_emi": 143116.66666666666,
+      "credit_history_years": 28.0,
+      "existing_loans": 17,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_321",
+    "input": {
+      "monthly_income": 5500.0,
+      "monthly_emi": 7975.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 5,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_322",
+    "input": {
+      "monthly_income": 3250.0,
+      "monthly_emi": 31784.999999999996,
+      "credit_history_years": 22.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_323",
+    "input": {
+      "monthly_income": 6333.333333333333,
+      "monthly_emi": 74796.66666666667,
+      "credit_history_years": 30.0,
+      "existing_loans": 7,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_324",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 96266.66666666667,
+      "credit_history_years": 39.0,
+      "existing_loans": 23,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_325",
+    "input": {
+      "monthly_income": 9166.666666666666,
+      "monthly_emi": 285816.6666666666,
+      "credit_history_years": 37.0,
+      "existing_loans": 9,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_326",
+    "input": {
+      "monthly_income": 7416.666666666667,
+      "monthly_emi": 289101.6666666666,
+      "credit_history_years": 27.0,
+      "existing_loans": 28,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_327",
+    "input": {
+      "monthly_income": 1150.0,
+      "monthly_emi": 147901.50000000003,
+      "credit_history_years": 30.0,
+      "existing_loans": 10,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_328",
+    "input": {
+      "monthly_income": 2650.0,
+      "monthly_emi": 39008.0,
+      "credit_history_years": 32.0,
+      "existing_loans": 3,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_329",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 87899.99999999999,
+      "credit_history_years": 31.0,
+      "existing_loans": 10,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_330",
+    "input": {
+      "monthly_income": 11666.666666666666,
+      "monthly_emi": 239983.3333333333,
+      "credit_history_years": 27.0,
+      "existing_loans": 19,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_331",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 188666.6666666667,
+      "credit_history_years": 23.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_332",
+    "input": {
+      "monthly_income": 15000.0,
+      "monthly_emi": 148800.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 15,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_333",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 96800.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 9,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_334",
+    "input": {
+      "monthly_income": 5916.666666666667,
+      "monthly_emi": 110109.16666666667,
+      "credit_history_years": 25.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_335",
+    "input": {
+      "monthly_income": 5166.666666666667,
+      "monthly_emi": 86903.33333333334,
+      "credit_history_years": 32.0,
+      "existing_loans": 9,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_336",
+    "input": {
+      "monthly_income": 13000.0,
+      "monthly_emi": 171860.0,
+      "credit_history_years": 42.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_337",
+    "input": {
+      "monthly_income": 6416.666666666667,
+      "monthly_emi": 50306.66666666667,
+      "credit_history_years": 28.0,
+      "existing_loans": 9,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_338",
+    "input": {
+      "monthly_income": 10416.666666666666,
+      "monthly_emi": 58854.166666666664,
+      "credit_history_years": 22.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_339",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 206666.6666666667,
+      "credit_history_years": 28.0,
+      "existing_loans": 9,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_340",
+    "input": {
+      "monthly_income": 7083.333333333333,
+      "monthly_emi": 172975.0,
+      "credit_history_years": 31.0,
+      "existing_loans": 20,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_341",
+    "input": {
+      "monthly_income": 6333.333333333333,
+      "monthly_emi": 114506.66666666666,
+      "credit_history_years": 35.0,
+      "existing_loans": 5,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_342",
+    "input": {
+      "monthly_income": 8000.0,
+      "monthly_emi": 85280.0,
+      "credit_history_years": 14.0,
+      "existing_loans": 6,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_343",
+    "input": {
+      "monthly_income": 11625.0,
+      "monthly_emi": 246682.5,
+      "credit_history_years": 25.0,
+      "existing_loans": 13,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_344",
+    "input": {
+      "monthly_income": 6183.333333333333,
+      "monthly_emi": 100108.16666666667,
+      "credit_history_years": 22.0,
+      "existing_loans": 5,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_345",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 63437.5,
+      "credit_history_years": 22.0,
+      "existing_loans": 9,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_346",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 15108.333333333332,
+      "credit_history_years": 22.0,
+      "existing_loans": 7,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_347",
+    "input": {
+      "monthly_income": 9416.666666666666,
+      "monthly_emi": 121098.33333333331,
+      "credit_history_years": 23.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_348",
+    "input": {
+      "monthly_income": 8666.666666666666,
+      "monthly_emi": 293280.0,
+      "credit_history_years": 12.0,
+      "existing_loans": 19,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_349",
+    "input": {
+      "monthly_income": 1000.0,
+      "monthly_emi": 204130.0,
+      "credit_history_years": 34.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_350",
+    "input": {
+      "monthly_income": 1200.0,
+      "monthly_emi": 4596.0,
+      "credit_history_years": 14.0,
+      "existing_loans": 2,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_351",
+    "input": {
+      "monthly_income": 2513.5833333333335,
+      "monthly_emi": 69626.25833333333,
+      "credit_history_years": 11.0,
+      "existing_loans": 7,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_352",
+    "input": {
+      "monthly_income": 10000.0,
+      "monthly_emi": 78100.0,
+      "credit_history_years": 27.0,
+      "existing_loans": 4,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_353",
+    "input": {
+      "monthly_income": 6625.0,
+      "monthly_emi": 119117.5,
+      "credit_history_years": 29.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_354",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 65829.16666666666,
+      "credit_history_years": 21.0,
+      "existing_loans": 9,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_355",
+    "input": {
+      "monthly_income": 4266.666666666667,
+      "monthly_emi": 38997.333333333336,
+      "credit_history_years": 19.0,
+      "existing_loans": 8,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_356",
+    "input": {
+      "monthly_income": 3833.3333333333335,
+      "monthly_emi": 139725.00000000003,
+      "credit_history_years": 16.0,
+      "existing_loans": 9,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_357",
+    "input": {
+      "monthly_income": 9166.666666666666,
+      "monthly_emi": 124666.66666666666,
+      "credit_history_years": 23.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_358",
+    "input": {
+      "monthly_income": 5166.666666666667,
+      "monthly_emi": 156963.33333333334,
+      "credit_history_years": 22.0,
+      "existing_loans": 13,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_359",
+    "input": {
+      "monthly_income": 6500.0,
+      "monthly_emi": 99710.0,
+      "credit_history_years": 30.0,
+      "existing_loans": 20,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_360",
+    "input": {
+      "monthly_income": 2816.6666666666665,
+      "monthly_emi": 46925.666666666664,
+      "credit_history_years": 12.0,
+      "existing_loans": 8,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_361",
+    "input": {
+      "monthly_income": 8750.0,
+      "monthly_emi": 144812.5,
+      "credit_history_years": 22.0,
+      "existing_loans": 5,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_362",
+    "input": {
+      "monthly_income": 4246.666666666667,
+      "monthly_emi": 29217.06666666667,
+      "credit_history_years": 14.0,
+      "existing_loans": 8,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_363",
+    "input": {
+      "monthly_income": 7250.0,
+      "monthly_emi": 144782.5,
+      "credit_history_years": 21.0,
+      "existing_loans": 9,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_364",
+    "input": {
+      "monthly_income": 4416.666666666667,
+      "monthly_emi": 107501.66666666667,
+      "credit_history_years": 19.0,
+      "existing_loans": 9,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_365",
+    "input": {
+      "monthly_income": 4666.666666666667,
+      "monthly_emi": 93100.0,
+      "credit_history_years": 42.0,
+      "existing_loans": 11,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_366",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 107687.5,
+      "credit_history_years": 29.0,
+      "existing_loans": 9,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_367",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 336458.3333333334,
+      "credit_history_years": 31.0,
+      "existing_loans": 15,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_368",
+    "input": {
+      "monthly_income": 4666.666666666667,
+      "monthly_emi": 54226.666666666664,
+      "credit_history_years": 22.0,
+      "existing_loans": 10,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_369",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 100800.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 12,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_370",
+    "input": {
+      "monthly_income": 6575.0,
+      "monthly_emi": 223681.50000000003,
+      "credit_history_years": 21.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_371",
+    "input": {
+      "monthly_income": 9833.333333333334,
+      "monthly_emi": 193815.00000000003,
+      "credit_history_years": 23.0,
+      "existing_loans": 25,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_372",
+    "input": {
+      "monthly_income": 7083.333333333333,
+      "monthly_emi": 141312.5,
+      "credit_history_years": 23.0,
+      "existing_loans": 15,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_373",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 51766.666666666664,
+      "credit_history_years": 12.0,
+      "existing_loans": 6,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_374",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 207404.1666666667,
+      "credit_history_years": 24.0,
+      "existing_loans": 18,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_375",
+    "input": {
+      "monthly_income": 2000.0,
+      "monthly_emi": 71000.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 11,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_376",
+    "input": {
+      "monthly_income": 6333.25,
+      "monthly_emi": 217737.135,
+      "credit_history_years": 25.0,
+      "existing_loans": 16,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_377",
+    "input": {
+      "monthly_income": 10833.333333333334,
+      "monthly_emi": 103241.66666666667,
+      "credit_history_years": 54.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_378",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 104700.0,
+      "credit_history_years": 18.0,
+      "existing_loans": 22,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_379",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 94912.5,
+      "credit_history_years": 23.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_380",
+    "input": {
+      "monthly_income": 9500.0,
+      "monthly_emi": 176415.0,
+      "credit_history_years": 27.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_381",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 91895.83333333333,
+      "credit_history_years": 35.0,
+      "existing_loans": 11,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_382",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 99875.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 11,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_383",
+    "input": {
+      "monthly_income": 3083.3333333333335,
+      "monthly_emi": 94072.50000000001,
+      "credit_history_years": 25.0,
+      "existing_loans": 5,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_384",
+    "input": {
+      "monthly_income": 5416.666666666667,
+      "monthly_emi": 118733.33333333334,
+      "credit_history_years": 33.0,
+      "existing_loans": 12,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_385",
+    "input": {
+      "monthly_income": 10000.0,
+      "monthly_emi": 142400.0,
+      "credit_history_years": 32.0,
+      "existing_loans": 11,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_386",
+    "input": {
+      "monthly_income": 4666.666666666667,
+      "monthly_emi": 31686.666666666668,
+      "credit_history_years": 24.0,
+      "existing_loans": 5,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_387",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 22283.333333333332,
+      "credit_history_years": 30.0,
+      "existing_loans": 5,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_388",
+    "input": {
+      "monthly_income": 16333.333333333334,
+      "monthly_emi": 235200.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_389",
+    "input": {
+      "monthly_income": 12500.0,
+      "monthly_emi": 58250.0,
+      "credit_history_years": 16.0,
+      "existing_loans": 5,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_390",
+    "input": {
+      "monthly_income": 6083.333333333333,
+      "monthly_emi": 158410.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 10,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_391",
+    "input": {
+      "monthly_income": 5500.0,
+      "monthly_emi": 145200.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_392",
+    "input": {
+      "monthly_income": 1166.6666666666667,
+      "monthly_emi": 20615.000000000004,
+      "credit_history_years": 29.0,
+      "existing_loans": 8,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_393",
+    "input": {
+      "monthly_income": 6416.666666666667,
+      "monthly_emi": 154385.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 13,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_394",
+    "input": {
+      "monthly_income": 4333.333333333333,
+      "monthly_emi": 71023.33333333333,
+      "credit_history_years": 52.0,
+      "existing_loans": 31,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_395",
+    "input": {
+      "monthly_income": 7791.666666666667,
+      "monthly_emi": 133705.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_396",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 109449.99999999999,
+      "credit_history_years": 19.0,
+      "existing_loans": 10,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_397",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 65925.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 11,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_398",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 78750.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 6,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_399",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 231000.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 13,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_400",
+    "input": {
+      "monthly_income": 7083.333333333333,
+      "monthly_emi": 209524.99999999997,
+      "credit_history_years": 40.0,
+      "existing_loans": 17,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_401",
+    "input": {
+      "monthly_income": 16250.0,
+      "monthly_emi": 210437.5,
+      "credit_history_years": 25.0,
+      "existing_loans": 12,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_402",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 109950.0,
+      "credit_history_years": 28.0,
+      "existing_loans": 6,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_403",
+    "input": {
+      "monthly_income": 2583.3333333333335,
+      "monthly_emi": 65048.333333333336,
+      "credit_history_years": 23.0,
+      "existing_loans": 8,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_404",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 23391.666666666664,
+      "credit_history_years": 37.0,
+      "existing_loans": 8,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_405",
+    "input": {
+      "monthly_income": 6750.0,
+      "monthly_emi": 124875.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 12,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_406",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 49500.0,
+      "credit_history_years": 13.0,
+      "existing_loans": 6,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_407",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 54500.00000000001,
+      "credit_history_years": 32.0,
+      "existing_loans": 4,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_408",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 76416.66666666667,
+      "credit_history_years": 27.0,
+      "existing_loans": 8,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_409",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 37100.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 8,
+      "employment_years": 7.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_410",
+    "input": {
+      "monthly_income": 3254.4166666666665,
+      "monthly_emi": 74395.965,
+      "credit_history_years": 32.0,
+      "existing_loans": 9,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_411",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 57383.33333333333,
+      "credit_history_years": 21.0,
+      "existing_loans": 4,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_412",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 49000.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_413",
+    "input": {
+      "monthly_income": 1833.3333333333333,
+      "monthly_emi": 18205.0,
+      "credit_history_years": 27.0,
+      "existing_loans": 11,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_414",
+    "input": {
+      "monthly_income": 3682.5,
+      "monthly_emi": 69893.85,
+      "credit_history_years": 27.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_415",
+    "input": {
+      "monthly_income": 1916.6666666666667,
+      "monthly_emi": 43431.66666666667,
+      "credit_history_years": 12.0,
+      "existing_loans": 21,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_416",
+    "input": {
+      "monthly_income": 10000.0,
+      "monthly_emi": 167200.0,
+      "credit_history_years": 16.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_417",
+    "input": {
+      "monthly_income": 5583.333333333333,
+      "monthly_emi": 184305.8333333333,
+      "credit_history_years": 27.0,
+      "existing_loans": 13,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_418",
+    "input": {
+      "monthly_income": 11416.666666666666,
+      "monthly_emi": 161660.0,
+      "credit_history_years": 42.0,
+      "existing_loans": 24,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_419",
+    "input": {
+      "monthly_income": 2500.0,
+      "monthly_emi": 9400.0,
+      "credit_history_years": 17.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_420",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 110874.99999999999,
+      "credit_history_years": 23.0,
+      "existing_loans": 15,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_421",
+    "input": {
+      "monthly_income": 3708.3333333333335,
+      "monthly_emi": 73610.41666666667,
+      "credit_history_years": 15.0,
+      "existing_loans": 6,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_422",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 40810.0,
+      "credit_history_years": 41.0,
+      "existing_loans": 10,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_423",
+    "input": {
+      "monthly_income": 9916.666666666666,
+      "monthly_emi": 85680.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 12,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_424",
+    "input": {
+      "monthly_income": 5250.0,
+      "monthly_emi": 184380.0,
+      "credit_history_years": 18.0,
+      "existing_loans": 10,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_425",
+    "input": {
+      "monthly_income": 3466.6666666666665,
+      "monthly_emi": 18200.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 5,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_426",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 45000.00000000001,
+      "credit_history_years": 22.0,
+      "existing_loans": 5,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_427",
+    "input": {
+      "monthly_income": 1643.25,
+      "monthly_emi": 4995.4800000000005,
+      "credit_history_years": 14.0,
+      "existing_loans": 9,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_428",
+    "input": {
+      "monthly_income": 6208.333333333333,
+      "monthly_emi": 134224.16666666666,
+      "credit_history_years": 25.0,
+      "existing_loans": 7,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_429",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 141833.33333333334,
+      "credit_history_years": 20.0,
+      "existing_loans": 13,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_430",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 134500.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 14,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_431",
+    "input": {
+      "monthly_income": 5583.333333333333,
+      "monthly_emi": 123615.0,
+      "credit_history_years": 24.0,
+      "existing_loans": 19,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_432",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 222466.66666666666,
+      "credit_history_years": 35.0,
+      "existing_loans": 13,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_433",
+    "input": {
+      "monthly_income": 900.0,
+      "monthly_emi": 83403.0,
+      "credit_history_years": 41.0,
+      "existing_loans": 8,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_434",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 102900.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 5,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_435",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 53725.0,
+      "credit_history_years": 19.0,
+      "existing_loans": 8,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_436",
+    "input": {
+      "monthly_income": 3083.3333333333335,
+      "monthly_emi": 94411.66666666667,
+      "credit_history_years": 21.0,
+      "existing_loans": 35,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_437",
+    "input": {
+      "monthly_income": 9500.0,
+      "monthly_emi": 125685.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 26,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_438",
+    "input": {
+      "monthly_income": 1666.6666666666667,
+      "monthly_emi": 57866.666666666664,
+      "credit_history_years": 23.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_439",
+    "input": {
+      "monthly_income": 5083.333333333333,
+      "monthly_emi": 66490.0,
+      "credit_history_years": 27.0,
+      "existing_loans": 5,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_440",
+    "input": {
+      "monthly_income": 3083.3333333333335,
+      "monthly_emi": 115501.66666666667,
+      "credit_history_years": 28.0,
+      "existing_loans": 22,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_441",
+    "input": {
+      "monthly_income": 3466.6666666666665,
+      "monthly_emi": 93704.0,
+      "credit_history_years": 30.0,
+      "existing_loans": 15,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_442",
+    "input": {
+      "monthly_income": 4754.718333333333,
+      "monthly_emi": 18305.665583333335,
+      "credit_history_years": 24.0,
+      "existing_loans": 22,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_443",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 150091.66666666666,
+      "credit_history_years": 37.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_444",
+    "input": {
+      "monthly_income": 2000.0,
+      "monthly_emi": 18400.0,
+      "credit_history_years": 15.0,
+      "existing_loans": 5,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_445",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 135800.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 18,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_446",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 56524.99999999999,
+      "credit_history_years": 16.0,
+      "existing_loans": 15,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_447",
+    "input": {
+      "monthly_income": 4750.0,
+      "monthly_emi": 76095.0,
+      "credit_history_years": 35.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_448",
+    "input": {
+      "monthly_income": 12500.0,
+      "monthly_emi": 88125.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 8,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_449",
+    "input": {
+      "monthly_income": 2750.0,
+      "monthly_emi": 74800.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 6,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_450",
+    "input": {
+      "monthly_income": 5666.666666666667,
+      "monthly_emi": 63580.00000000001,
+      "credit_history_years": 29.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_451",
+    "input": {
+      "monthly_income": 12666.666666666666,
+      "monthly_emi": 169986.66666666666,
+      "credit_history_years": 28.0,
+      "existing_loans": 8,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_452",
+    "input": {
+      "monthly_income": 6500.0,
+      "monthly_emi": 111929.99999999999,
+      "credit_history_years": 21.0,
+      "existing_loans": 26,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_453",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 65291.66666666667,
+      "credit_history_years": 12.0,
+      "existing_loans": 7,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_454",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 75791.66666666667,
+      "credit_history_years": 16.0,
+      "existing_loans": 10,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_455",
+    "input": {
+      "monthly_income": 4750.0,
+      "monthly_emi": 67022.5,
+      "credit_history_years": 17.0,
+      "existing_loans": 3,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_456",
+    "input": {
+      "monthly_income": 5250.0,
+      "monthly_emi": 106417.5,
+      "credit_history_years": 17.0,
+      "existing_loans": 9,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_457",
+    "input": {
+      "monthly_income": 6666.666666666667,
+      "monthly_emi": 72733.33333333334,
+      "credit_history_years": 26.0,
+      "existing_loans": 7,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_458",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 7500.000000000001,
+      "credit_history_years": 16.0,
+      "existing_loans": 4,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_459",
+    "input": {
+      "monthly_income": 9500.0,
+      "monthly_emi": 186770.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 14,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_460",
+    "input": {
+      "monthly_income": 6375.0,
+      "monthly_emi": 175185.0,
+      "credit_history_years": 22.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_461",
+    "input": {
+      "monthly_income": 6000.0,
+      "monthly_emi": 145680.0,
+      "credit_history_years": 29.0,
+      "existing_loans": 16,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_462",
+    "input": {
+      "monthly_income": 9333.333333333334,
+      "monthly_emi": 115360.0,
+      "credit_history_years": 39.0,
+      "existing_loans": 8,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_463",
+    "input": {
+      "monthly_income": 3116.6666666666665,
+      "monthly_emi": 67101.83333333333,
+      "credit_history_years": 16.0,
+      "existing_loans": 9,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_464",
+    "input": {
+      "monthly_income": 2166.6666666666665,
+      "monthly_emi": 30506.666666666664,
+      "credit_history_years": 12.0,
+      "existing_loans": 5,
+      "employment_years": 4.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_465",
+    "input": {
+      "monthly_income": 2083.3333333333335,
+      "monthly_emi": 20500.0,
+      "credit_history_years": 52.0,
+      "existing_loans": 1,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_466",
+    "input": {
+      "monthly_income": 8333.333333333334,
+      "monthly_emi": 320750.00000000006,
+      "credit_history_years": 21.0,
+      "existing_loans": 11,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_467",
+    "input": {
+      "monthly_income": 6208.333333333333,
+      "monthly_emi": 12292.5,
+      "credit_history_years": 17.0,
+      "existing_loans": 8,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_468",
+    "input": {
+      "monthly_income": 7916.666666666667,
+      "monthly_emi": 440245.8333333334,
+      "credit_history_years": 30.0,
+      "existing_loans": 21,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_469",
+    "input": {
+      "monthly_income": 5833.333333333333,
+      "monthly_emi": 64516.666666666664,
+      "credit_history_years": 23.0,
+      "existing_loans": 17,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_470",
+    "input": {
+      "monthly_income": 3333.3333333333335,
+      "monthly_emi": 130100.00000000001,
+      "credit_history_years": 18.0,
+      "existing_loans": 15,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_471",
+    "input": {
+      "monthly_income": 6583.333333333333,
+      "monthly_emi": 192035.83333333334,
+      "credit_history_years": 27.0,
+      "existing_loans": 16,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_472",
+    "input": {
+      "monthly_income": 3416.6666666666665,
+      "monthly_emi": 93719.16666666666,
+      "credit_history_years": 14.0,
+      "existing_loans": 12,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_473",
+    "input": {
+      "monthly_income": 6083.333333333333,
+      "monthly_emi": 73790.83333333333,
+      "credit_history_years": 22.0,
+      "existing_loans": 7,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_474",
+    "input": {
+      "monthly_income": 2083.3333333333335,
+      "monthly_emi": 14708.333333333334,
+      "credit_history_years": 25.0,
+      "existing_loans": 2,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_475",
+    "input": {
+      "monthly_income": 7166.666666666667,
+      "monthly_emi": 21213.333333333336,
+      "credit_history_years": 19.0,
+      "existing_loans": 2,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_476",
+    "input": {
+      "monthly_income": 2750.0,
+      "monthly_emi": 15895.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 9,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_477",
+    "input": {
+      "monthly_income": 6250.0,
+      "monthly_emi": 205375.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 8,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_478",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 39750.0,
+      "credit_history_years": 14.0,
+      "existing_loans": 7,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_479",
+    "input": {
+      "monthly_income": 9500.0,
+      "monthly_emi": 106400.0,
+      "credit_history_years": 20.0,
+      "existing_loans": 7,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_480",
+    "input": {
+      "monthly_income": 4000.0,
+      "monthly_emi": 177400.0,
+      "credit_history_years": 26.0,
+      "existing_loans": 10,
+      "employment_years": 5.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_481",
+    "input": {
+      "monthly_income": 3750.0,
+      "monthly_emi": 60412.5,
+      "credit_history_years": 18.0,
+      "existing_loans": 3,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_482",
+    "input": {
+      "monthly_income": 7500.0,
+      "monthly_emi": 76125.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 9,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_483",
+    "input": {
+      "monthly_income": 4583.333333333333,
+      "monthly_emi": 107020.83333333333,
+      "credit_history_years": 23.0,
+      "existing_loans": 20,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_484",
+    "input": {
+      "monthly_income": 3000.0,
+      "monthly_emi": 14610.0,
+      "credit_history_years": 18.0,
+      "existing_loans": 2,
+      "employment_years": 1.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_485",
+    "input": {
+      "monthly_income": 10000.0,
+      "monthly_emi": 82500.0,
+      "credit_history_years": 40.0,
+      "existing_loans": 14,
+      "employment_years": 3.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_486",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 57714.99999999999,
+      "credit_history_years": 26.0,
+      "existing_loans": 7,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_487",
+    "input": {
+      "monthly_income": 6625.0,
+      "monthly_emi": 106331.25,
+      "credit_history_years": 26.0,
+      "existing_loans": 14,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_488",
+    "input": {
+      "monthly_income": 3500.0,
+      "monthly_emi": 20405.0,
+      "credit_history_years": 12.0,
+      "existing_loans": 9,
+      "employment_years": 0.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_489",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 62708.33333333333,
+      "credit_history_years": 26.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_490",
+    "input": {
+      "monthly_income": 20833.333333333332,
+      "monthly_emi": 53750.0,
+      "credit_history_years": 23.0,
+      "existing_loans": 9,
+      "employment_years": 8.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_491",
+    "input": {
+      "monthly_income": 3416.6666666666665,
+      "monthly_emi": 141825.8333333333,
+      "credit_history_years": 25.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_492",
+    "input": {
+      "monthly_income": 5750.0,
+      "monthly_emi": 68022.5,
+      "credit_history_years": 19.0,
+      "existing_loans": 5,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_493",
+    "input": {
+      "monthly_income": 5766.666666666667,
+      "monthly_emi": 29006.333333333336,
+      "credit_history_years": 15.0,
+      "existing_loans": 10,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_494",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 31120.833333333332,
+      "credit_history_years": 33.0,
+      "existing_loans": 10,
+      "employment_years": NaN
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_495",
+    "input": {
+      "monthly_income": 18333.333333333332,
+      "monthly_emi": 137866.66666666666,
+      "credit_history_years": 27.0,
+      "existing_loans": 10,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_496",
+    "input": {
+      "monthly_income": 5666.666666666667,
+      "monthly_emi": 97750.0,
+      "credit_history_years": 30.0,
+      "existing_loans": 13,
+      "employment_years": 6.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_497",
+    "input": {
+      "monthly_income": 4166.666666666667,
+      "monthly_emi": 157208.33333333334,
+      "credit_history_years": 21.0,
+      "existing_loans": 16,
+      "employment_years": 2.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_498",
+    "input": {
+      "monthly_income": 5000.0,
+      "monthly_emi": 80600.0,
+      "credit_history_years": 25.0,
+      "existing_loans": 7,
+      "employment_years": 10.0
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "RealCase_499",
+    "input": {
+      "monthly_income": 2916.6666666666665,
+      "monthly_emi": 31500.0,
+      "credit_history_years": 21.0,
+      "existing_loans": 6,
+      "employment_years": 9.0
+    },
+    "expected_decision": "REJECT"
+  }
+]

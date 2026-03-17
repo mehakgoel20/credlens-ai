@@ -1,0 +1,1322 @@
+[
+  {
+    "name": "AutoCase_0",
+    "input": {
+      "monthly_income": 100013,
+      "monthly_emi": 14395,
+      "credit_history_years": 9.684015871827153,
+      "existing_loans": 0,
+      "employment_years": 1.1327760129244984
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_1",
+    "input": {
+      "monthly_income": 140356,
+      "monthly_emi": 31238,
+      "credit_history_years": 0.971845336932089,
+      "existing_loans": 0,
+      "employment_years": 3.7810507478611495
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_2",
+    "input": {
+      "monthly_income": 50551,
+      "monthly_emi": 12746,
+      "credit_history_years": 3.658437987820288,
+      "existing_loans": 3,
+      "employment_years": 4.638425365396361
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_3",
+    "input": {
+      "monthly_income": 80706,
+      "monthly_emi": 23955,
+      "credit_history_years": 1.380031381998062,
+      "existing_loans": 1,
+      "employment_years": 0.617255615900905
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_4",
+    "input": {
+      "monthly_income": 54253,
+      "monthly_emi": 9082,
+      "credit_history_years": 8.49011674006438,
+      "existing_loans": 0,
+      "employment_years": 3.932765227123184
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_5",
+    "input": {
+      "monthly_income": 59235,
+      "monthly_emi": 8333,
+      "credit_history_years": 9.385633040135591,
+      "existing_loans": 2,
+      "employment_years": 5.959813140017535
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_6",
+    "input": {
+      "monthly_income": 123430,
+      "monthly_emi": 21445,
+      "credit_history_years": 7.663835311426409,
+      "existing_loans": 3,
+      "employment_years": 9.657706865080659
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_7",
+    "input": {
+      "monthly_income": 132241,
+      "monthly_emi": 38922,
+      "credit_history_years": 6.02015671333609,
+      "existing_loans": 4,
+      "employment_years": 5.7210471846906295
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_8",
+    "input": {
+      "monthly_income": 136879,
+      "monthly_emi": 22300,
+      "credit_history_years": 8.576610529823174,
+      "existing_loans": 3,
+      "employment_years": 8.350348716087666
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_9",
+    "input": {
+      "monthly_income": 110484,
+      "monthly_emi": 30865,
+      "credit_history_years": 5.637244028114999,
+      "existing_loans": 2,
+      "employment_years": 3.90250355711143
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_10",
+    "input": {
+      "monthly_income": 104689,
+      "monthly_emi": 14860,
+      "credit_history_years": 5.940408951161528,
+      "existing_loans": 1,
+      "employment_years": 4.153725707738153
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_11",
+    "input": {
+      "monthly_income": 136808,
+      "monthly_emi": 15353,
+      "credit_history_years": 2.717022095967954,
+      "existing_loans": 2,
+      "employment_years": 9.668727658874884
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_12",
+    "input": {
+      "monthly_income": 137339,
+      "monthly_emi": 35131,
+      "credit_history_years": 8.386653132978754,
+      "existing_loans": 4,
+      "employment_years": 1.4429130298278683
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_13",
+    "input": {
+      "monthly_income": 80631,
+      "monthly_emi": 19432,
+      "credit_history_years": 2.3966173799997548,
+      "existing_loans": 0,
+      "employment_years": 6.181824886687886
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_14",
+    "input": {
+      "monthly_income": 54447,
+      "monthly_emi": 6818,
+      "credit_history_years": 2.686373352278819,
+      "existing_loans": 4,
+      "employment_years": 4.982088511885363
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_15",
+    "input": {
+      "monthly_income": 141635,
+      "monthly_emi": 22679,
+      "credit_history_years": 1.4365819201979446,
+      "existing_loans": 4,
+      "employment_years": 7.593925747869026
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_16",
+    "input": {
+      "monthly_income": 102005,
+      "monthly_emi": 7283,
+      "credit_history_years": 9.174248106185894,
+      "existing_loans": 2,
+      "employment_years": 7.523750251524415
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_17",
+    "input": {
+      "monthly_income": 147682,
+      "monthly_emi": 20244,
+      "credit_history_years": 3.0690709012675947,
+      "existing_loans": 0,
+      "employment_years": 3.677954185600024
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_18",
+    "input": {
+      "monthly_income": 114999,
+      "monthly_emi": 7744,
+      "credit_history_years": 7.596514776266874,
+      "existing_loans": 0,
+      "employment_years": 9.29406447779754
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_19",
+    "input": {
+      "monthly_income": 110561,
+      "monthly_emi": 21916,
+      "credit_history_years": 4.349324914795183,
+      "existing_loans": 4,
+      "employment_years": 3.8130894819002545
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_20",
+    "input": {
+      "monthly_income": 60035,
+      "monthly_emi": 5628,
+      "credit_history_years": 1.714616444045151,
+      "existing_loans": 4,
+      "employment_years": 8.442541683021332
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_21",
+    "input": {
+      "monthly_income": 137199,
+      "monthly_emi": 32093,
+      "credit_history_years": 3.5119735580447724,
+      "existing_loans": 3,
+      "employment_years": 1.6069725887401738
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_22",
+    "input": {
+      "monthly_income": 89150,
+      "monthly_emi": 9292,
+      "credit_history_years": 9.881103412280456,
+      "existing_loans": 3,
+      "employment_years": 8.92547680397253
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_23",
+    "input": {
+      "monthly_income": 92610,
+      "monthly_emi": 7804,
+      "credit_history_years": 6.846495904445342,
+      "existing_loans": 2,
+      "employment_years": 5.090833914771968
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_24",
+    "input": {
+      "monthly_income": 140559,
+      "monthly_emi": 37251,
+      "credit_history_years": 0.9990225213774482,
+      "existing_loans": 3,
+      "employment_years": 3.6122682818418785
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_25",
+    "input": {
+      "monthly_income": 77580,
+      "monthly_emi": 12685,
+      "credit_history_years": 3.3464195855007954,
+      "existing_loans": 1,
+      "employment_years": 1.9023263739196792
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_26",
+    "input": {
+      "monthly_income": 64598,
+      "monthly_emi": 15699,
+      "credit_history_years": 0.7530684093639484,
+      "existing_loans": 2,
+      "employment_years": 6.106327226417794
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_27",
+    "input": {
+      "monthly_income": 75481,
+      "monthly_emi": 5010,
+      "credit_history_years": 1.2651163643991281,
+      "existing_loans": 3,
+      "employment_years": 7.739517797735355
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_28",
+    "input": {
+      "monthly_income": 70757,
+      "monthly_emi": 20794,
+      "credit_history_years": 1.214479460290062,
+      "existing_loans": 2,
+      "employment_years": 2.57234988443122
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_29",
+    "input": {
+      "monthly_income": 135384,
+      "monthly_emi": 20456,
+      "credit_history_years": 7.810769374416818,
+      "existing_loans": 0,
+      "employment_years": 6.720051542696116
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_30",
+    "input": {
+      "monthly_income": 54204,
+      "monthly_emi": 5791,
+      "credit_history_years": 1.801123400601986,
+      "existing_loans": 3,
+      "employment_years": 3.060020756161957
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_31",
+    "input": {
+      "monthly_income": 81988,
+      "monthly_emi": 8163,
+      "credit_history_years": 8.539262151528678,
+      "existing_loans": 0,
+      "employment_years": 0.5739930125981133
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_32",
+    "input": {
+      "monthly_income": 91728,
+      "monthly_emi": 26140,
+      "credit_history_years": 2.553143213248495,
+      "existing_loans": 1,
+      "employment_years": 8.380953688337419
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_33",
+    "input": {
+      "monthly_income": 105913,
+      "monthly_emi": 28556,
+      "credit_history_years": 4.747773039681631,
+      "existing_loans": 4,
+      "employment_years": 2.0106050107164375
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_34",
+    "input": {
+      "monthly_income": 61790,
+      "monthly_emi": 6263,
+      "credit_history_years": 8.15212291710829,
+      "existing_loans": 1,
+      "employment_years": 5.672266507559602
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_35",
+    "input": {
+      "monthly_income": 144976,
+      "monthly_emi": 25325,
+      "credit_history_years": 8.648719562360395,
+      "existing_loans": 1,
+      "employment_years": 1.38675759449706
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_36",
+    "input": {
+      "monthly_income": 107140,
+      "monthly_emi": 14624,
+      "credit_history_years": 3.5497235924950217,
+      "existing_loans": 2,
+      "employment_years": 1.9307530927642123
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_37",
+    "input": {
+      "monthly_income": 140748,
+      "monthly_emi": 29526,
+      "credit_history_years": 6.232191165689472,
+      "existing_loans": 2,
+      "employment_years": 9.156745517884643
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_38",
+    "input": {
+      "monthly_income": 149128,
+      "monthly_emi": 16903,
+      "credit_history_years": 6.712198279616939,
+      "existing_loans": 4,
+      "employment_years": 9.200397658256975
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_39",
+    "input": {
+      "monthly_income": 62706,
+      "monthly_emi": 3795,
+      "credit_history_years": 9.123153790210596,
+      "existing_loans": 0,
+      "employment_years": 5.814401798493637
+    },
+    "expected_decision": "APPROVE"
+  },
+  {
+    "name": "AutoCase_40",
+    "input": {
+      "monthly_income": 84539,
+      "monthly_emi": 35293,
+      "credit_history_years": 2.384319392769105,
+      "existing_loans": 2,
+      "employment_years": 4.676281916803342
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_41",
+    "input": {
+      "monthly_income": 109763,
+      "monthly_emi": 48880,
+      "credit_history_years": 1.030549183424994,
+      "existing_loans": 0,
+      "employment_years": 9.868728096419614
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_42",
+    "input": {
+      "monthly_income": 119332,
+      "monthly_emi": 57744,
+      "credit_history_years": 9.604914150654148,
+      "existing_loans": 4,
+      "employment_years": 2.2212777245311006
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_43",
+    "input": {
+      "monthly_income": 123817,
+      "monthly_emi": 51810,
+      "credit_history_years": 9.641596309463589,
+      "existing_loans": 3,
+      "employment_years": 8.656592707716937
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_44",
+    "input": {
+      "monthly_income": 63337,
+      "monthly_emi": 25132,
+      "credit_history_years": 5.458311807924084,
+      "existing_loans": 1,
+      "employment_years": 4.027857284434132
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_45",
+    "input": {
+      "monthly_income": 108533,
+      "monthly_emi": 45059,
+      "credit_history_years": 8.657588568242444,
+      "existing_loans": 0,
+      "employment_years": 5.35331063933943
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_46",
+    "input": {
+      "monthly_income": 126034,
+      "monthly_emi": 48585,
+      "credit_history_years": 6.418012349452388,
+      "existing_loans": 4,
+      "employment_years": 3.4032843507825845
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_47",
+    "input": {
+      "monthly_income": 84503,
+      "monthly_emi": 36970,
+      "credit_history_years": 0.5749015331721601,
+      "existing_loans": 0,
+      "employment_years": 0.6665727841126936
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_48",
+    "input": {
+      "monthly_income": 74781,
+      "monthly_emi": 31279,
+      "credit_history_years": 8.497426329511434,
+      "existing_loans": 0,
+      "employment_years": 5.514934697939639
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_49",
+    "input": {
+      "monthly_income": 117733,
+      "monthly_emi": 46154,
+      "credit_history_years": 2.115980205259551,
+      "existing_loans": 3,
+      "employment_years": 3.5730636571631322
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_50",
+    "input": {
+      "monthly_income": 124817,
+      "monthly_emi": 52932,
+      "credit_history_years": 1.6458135674000252,
+      "existing_loans": 0,
+      "employment_years": 8.388626969961045
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_51",
+    "input": {
+      "monthly_income": 143678,
+      "monthly_emi": 52647,
+      "credit_history_years": 2.9938258078498894,
+      "existing_loans": 1,
+      "employment_years": 1.1181036855865614
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_52",
+    "input": {
+      "monthly_income": 51900,
+      "monthly_emi": 20007,
+      "credit_history_years": 4.082616577371173,
+      "existing_loans": 4,
+      "employment_years": 4.950710338108025
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_53",
+    "input": {
+      "monthly_income": 80026,
+      "monthly_emi": 36903,
+      "credit_history_years": 3.569494157376347,
+      "existing_loans": 0,
+      "employment_years": 7.755924858584453
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_54",
+    "input": {
+      "monthly_income": 91459,
+      "monthly_emi": 43162,
+      "credit_history_years": 2.8428833196593755,
+      "existing_loans": 3,
+      "employment_years": 7.254318123348383
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_55",
+    "input": {
+      "monthly_income": 117378,
+      "monthly_emi": 50938,
+      "credit_history_years": 9.282023945099365,
+      "existing_loans": 1,
+      "employment_years": 8.024875396765985
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_56",
+    "input": {
+      "monthly_income": 143728,
+      "monthly_emi": 62629,
+      "credit_history_years": 4.259962427548885,
+      "existing_loans": 0,
+      "employment_years": 6.8309730254331305
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_57",
+    "input": {
+      "monthly_income": 109963,
+      "monthly_emi": 45251,
+      "credit_history_years": 4.6048240083075935,
+      "existing_loans": 0,
+      "employment_years": 7.257136603876288
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_58",
+    "input": {
+      "monthly_income": 131057,
+      "monthly_emi": 50337,
+      "credit_history_years": 3.1008766783352213,
+      "existing_loans": 1,
+      "employment_years": 3.2834745609103866
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_59",
+    "input": {
+      "monthly_income": 94578,
+      "monthly_emi": 38937,
+      "credit_history_years": 9.495800259536185,
+      "existing_loans": 3,
+      "employment_years": 8.026981938686017
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_60",
+    "input": {
+      "monthly_income": 72187,
+      "monthly_emi": 27044,
+      "credit_history_years": 9.049812776589786,
+      "existing_loans": 1,
+      "employment_years": 7.043568084740901
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_61",
+    "input": {
+      "monthly_income": 124342,
+      "monthly_emi": 56362,
+      "credit_history_years": 8.169758090945933,
+      "existing_loans": 0,
+      "employment_years": 8.095806683888839
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_62",
+    "input": {
+      "monthly_income": 83392,
+      "monthly_emi": 37166,
+      "credit_history_years": 7.767998593415545,
+      "existing_loans": 2,
+      "employment_years": 4.092630947814481
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_63",
+    "input": {
+      "monthly_income": 103912,
+      "monthly_emi": 39742,
+      "credit_history_years": 5.9008525195920285,
+      "existing_loans": 0,
+      "employment_years": 6.626799655077391
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_64",
+    "input": {
+      "monthly_income": 139842,
+      "monthly_emi": 53183,
+      "credit_history_years": 2.0020148421253205,
+      "existing_loans": 0,
+      "employment_years": 1.899316972510034
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_65",
+    "input": {
+      "monthly_income": 69902,
+      "monthly_emi": 34147,
+      "credit_history_years": 3.0369166936721297,
+      "existing_loans": 2,
+      "employment_years": 6.0390382744570665
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_66",
+    "input": {
+      "monthly_income": 91563,
+      "monthly_emi": 38320,
+      "credit_history_years": 9.645346564799652,
+      "existing_loans": 3,
+      "employment_years": 2.556640031795963
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_67",
+    "input": {
+      "monthly_income": 134509,
+      "monthly_emi": 62913,
+      "credit_history_years": 2.8180155982931527,
+      "existing_loans": 3,
+      "employment_years": 8.489046334693352
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_68",
+    "input": {
+      "monthly_income": 63460,
+      "monthly_emi": 26589,
+      "credit_history_years": 6.021073501321577,
+      "existing_loans": 0,
+      "employment_years": 6.275455400611868
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_69",
+    "input": {
+      "monthly_income": 107493,
+      "monthly_emi": 43415,
+      "credit_history_years": 7.468428713115586,
+      "existing_loans": 1,
+      "employment_years": 4.017887293490132
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_70",
+    "input": {
+      "monthly_income": 143716,
+      "monthly_emi": 60283,
+      "credit_history_years": 6.446789275045564,
+      "existing_loans": 3,
+      "employment_years": 2.048159765985682
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_71",
+    "input": {
+      "monthly_income": 85395,
+      "monthly_emi": 36805,
+      "credit_history_years": 6.27623010469756,
+      "existing_loans": 1,
+      "employment_years": 7.460501207709475
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_72",
+    "input": {
+      "monthly_income": 112917,
+      "monthly_emi": 53695,
+      "credit_history_years": 3.1968191363363507,
+      "existing_loans": 0,
+      "employment_years": 1.9101548460879727
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_73",
+    "input": {
+      "monthly_income": 123394,
+      "monthly_emi": 60290,
+      "credit_history_years": 4.319309738215052,
+      "existing_loans": 4,
+      "employment_years": 4.244070254754325
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_74",
+    "input": {
+      "monthly_income": 58272,
+      "monthly_emi": 25110,
+      "credit_history_years": 5.949275442165912,
+      "existing_loans": 2,
+      "employment_years": 7.632383647320361
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_75",
+    "input": {
+      "monthly_income": 106296,
+      "monthly_emi": 41923,
+      "credit_history_years": 8.137228235181848,
+      "existing_loans": 1,
+      "employment_years": 4.025589989706763
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_76",
+    "input": {
+      "monthly_income": 112228,
+      "monthly_emi": 50188,
+      "credit_history_years": 3.1869890824213187,
+      "existing_loans": 1,
+      "employment_years": 4.620975505907335
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_77",
+    "input": {
+      "monthly_income": 97410,
+      "monthly_emi": 46287,
+      "credit_history_years": 9.956402981877638,
+      "existing_loans": 1,
+      "employment_years": 9.676931671217675
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_78",
+    "input": {
+      "monthly_income": 56963,
+      "monthly_emi": 24500,
+      "credit_history_years": 5.126344289714502,
+      "existing_loans": 4,
+      "employment_years": 4.970541217491416
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_79",
+    "input": {
+      "monthly_income": 96173,
+      "monthly_emi": 45450,
+      "credit_history_years": 3.7299377070001514,
+      "existing_loans": 4,
+      "employment_years": 1.5346477349181855
+    },
+    "expected_decision": "MANUAL_REVIEW"
+  },
+  {
+    "name": "AutoCase_80",
+    "input": {
+      "monthly_income": 131824,
+      "monthly_emi": 96912,
+      "credit_history_years": 5.884972004766204,
+      "existing_loans": 4,
+      "employment_years": 8.547896346953209
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_81",
+    "input": {
+      "monthly_income": 81612,
+      "monthly_emi": 57090,
+      "credit_history_years": 8.934965530799115,
+      "existing_loans": 1,
+      "employment_years": 7.457351627450925
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_82",
+    "input": {
+      "monthly_income": 106116,
+      "monthly_emi": 64222,
+      "credit_history_years": 3.530101346190412,
+      "existing_loans": 1,
+      "employment_years": 8.266165199502634
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_83",
+    "input": {
+      "monthly_income": 101180,
+      "monthly_emi": 75153,
+      "credit_history_years": 6.1783715379560595,
+      "existing_loans": 1,
+      "employment_years": 9.27329506491199
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_84",
+    "input": {
+      "monthly_income": 124309,
+      "monthly_emi": 89570,
+      "credit_history_years": 6.538666669518246,
+      "existing_loans": 2,
+      "employment_years": 3.5708076394117194
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_85",
+    "input": {
+      "monthly_income": 116530,
+      "monthly_emi": 85820,
+      "credit_history_years": 3.039481609370159,
+      "existing_loans": 3,
+      "employment_years": 1.095800804339984
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_86",
+    "input": {
+      "monthly_income": 90425,
+      "monthly_emi": 67132,
+      "credit_history_years": 5.315695964048367,
+      "existing_loans": 3,
+      "employment_years": 0.753154237520312
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_87",
+    "input": {
+      "monthly_income": 111577,
+      "monthly_emi": 78882,
+      "credit_history_years": 7.025181283982744,
+      "existing_loans": 1,
+      "employment_years": 6.521160345739173
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_88",
+    "input": {
+      "monthly_income": 110897,
+      "monthly_emi": 75918,
+      "credit_history_years": 0.9039990115664407,
+      "existing_loans": 1,
+      "employment_years": 2.1602066666406667
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_89",
+    "input": {
+      "monthly_income": 106097,
+      "monthly_emi": 65811,
+      "credit_history_years": 3.068286691851371,
+      "existing_loans": 4,
+      "employment_years": 8.858758066737732
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_90",
+    "input": {
+      "monthly_income": 132204,
+      "monthly_emi": 85249,
+      "credit_history_years": 6.859145866901709,
+      "existing_loans": 2,
+      "employment_years": 7.71005424595192
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_91",
+    "input": {
+      "monthly_income": 73610,
+      "monthly_emi": 42777,
+      "credit_history_years": 8.866341236164885,
+      "existing_loans": 4,
+      "employment_years": 6.363794494934425
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_92",
+    "input": {
+      "monthly_income": 142389,
+      "monthly_emi": 83008,
+      "credit_history_years": 7.858026365584491,
+      "existing_loans": 1,
+      "employment_years": 1.5276708567194568
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_93",
+    "input": {
+      "monthly_income": 122965,
+      "monthly_emi": 82913,
+      "credit_history_years": 9.751954521302839,
+      "existing_loans": 2,
+      "employment_years": 4.101502840827575
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_94",
+    "input": {
+      "monthly_income": 118690,
+      "monthly_emi": 64348,
+      "credit_history_years": 4.978077778231571,
+      "existing_loans": 4,
+      "employment_years": 2.7558345644369866
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_95",
+    "input": {
+      "monthly_income": 144647,
+      "monthly_emi": 98914,
+      "credit_history_years": 7.437306218140524,
+      "existing_loans": 3,
+      "employment_years": 0.6911841301595805
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_96",
+    "input": {
+      "monthly_income": 112363,
+      "monthly_emi": 80308,
+      "credit_history_years": 6.489708267293171,
+      "existing_loans": 2,
+      "employment_years": 9.949762274548107
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_97",
+    "input": {
+      "monthly_income": 99646,
+      "monthly_emi": 77147,
+      "credit_history_years": 6.561611763018104,
+      "existing_loans": 0,
+      "employment_years": 2.887656038879996
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_98",
+    "input": {
+      "monthly_income": 114043,
+      "monthly_emi": 73024,
+      "credit_history_years": 6.185397671631679,
+      "existing_loans": 3,
+      "employment_years": 9.82161373121361
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_99",
+    "input": {
+      "monthly_income": 118659,
+      "monthly_emi": 78481,
+      "credit_history_years": 2.72579544694727,
+      "existing_loans": 1,
+      "employment_years": 8.670303800759406
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_100",
+    "input": {
+      "monthly_income": 134008,
+      "monthly_emi": 76933,
+      "credit_history_years": 1.0764139027524986,
+      "existing_loans": 0,
+      "employment_years": 5.761605388934235
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_101",
+    "input": {
+      "monthly_income": 61538,
+      "monthly_emi": 37365,
+      "credit_history_years": 5.499629139999296,
+      "existing_loans": 4,
+      "employment_years": 7.6274901920950695
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_102",
+    "input": {
+      "monthly_income": 61811,
+      "monthly_emi": 32422,
+      "credit_history_years": 0.5957402579929718,
+      "existing_loans": 1,
+      "employment_years": 7.8459034620256976
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_103",
+    "input": {
+      "monthly_income": 68265,
+      "monthly_emi": 38719,
+      "credit_history_years": 0.8754906309711886,
+      "existing_loans": 3,
+      "employment_years": 5.15224964918862
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_104",
+    "input": {
+      "monthly_income": 145010,
+      "monthly_emi": 103260,
+      "credit_history_years": 5.289106524866406,
+      "existing_loans": 3,
+      "employment_years": 0.6054514332059808
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_105",
+    "input": {
+      "monthly_income": 53581,
+      "monthly_emi": 39060,
+      "credit_history_years": 8.144117353779587,
+      "existing_loans": 4,
+      "employment_years": 9.15187312379164
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_106",
+    "input": {
+      "monthly_income": 135675,
+      "monthly_emi": 88086,
+      "credit_history_years": 7.555497450355359,
+      "existing_loans": 3,
+      "employment_years": 3.752507798206267
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_107",
+    "input": {
+      "monthly_income": 147454,
+      "monthly_emi": 116991,
+      "credit_history_years": 4.635798223551567,
+      "existing_loans": 3,
+      "employment_years": 3.157587628096473
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_108",
+    "input": {
+      "monthly_income": 144774,
+      "monthly_emi": 89708,
+      "credit_history_years": 8.183030336375127,
+      "existing_loans": 0,
+      "employment_years": 3.349773513269405
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_109",
+    "input": {
+      "monthly_income": 60821,
+      "monthly_emi": 38267,
+      "credit_history_years": 7.169220007251445,
+      "existing_loans": 4,
+      "employment_years": 0.5452077270032241
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_110",
+    "input": {
+      "monthly_income": 136231,
+      "monthly_emi": 90702,
+      "credit_history_years": 0.8916815105187487,
+      "existing_loans": 3,
+      "employment_years": 9.398469317644366
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_111",
+    "input": {
+      "monthly_income": 138195,
+      "monthly_emi": 97469,
+      "credit_history_years": 0.9922644345147233,
+      "existing_loans": 1,
+      "employment_years": 6.109367397611642
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_112",
+    "input": {
+      "monthly_income": 101843,
+      "monthly_emi": 59043,
+      "credit_history_years": 5.322590671453279,
+      "existing_loans": 2,
+      "employment_years": 3.3908657313049133
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_113",
+    "input": {
+      "monthly_income": 116528,
+      "monthly_emi": 75152,
+      "credit_history_years": 7.120742242933695,
+      "existing_loans": 1,
+      "employment_years": 4.6400376986008665
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_114",
+    "input": {
+      "monthly_income": 132951,
+      "monthly_emi": 99365,
+      "credit_history_years": 7.747784508250883,
+      "existing_loans": 1,
+      "employment_years": 5.872977794299188
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_115",
+    "input": {
+      "monthly_income": 121750,
+      "monthly_emi": 71952,
+      "credit_history_years": 9.645105145354815,
+      "existing_loans": 0,
+      "employment_years": 4.276867657265573
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_116",
+    "input": {
+      "monthly_income": 52961,
+      "monthly_emi": 35163,
+      "credit_history_years": 6.811445528118761,
+      "existing_loans": 4,
+      "employment_years": 8.865864221081273
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_117",
+    "input": {
+      "monthly_income": 118236,
+      "monthly_emi": 76193,
+      "credit_history_years": 5.481873463967737,
+      "existing_loans": 1,
+      "employment_years": 9.905580066620034
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_118",
+    "input": {
+      "monthly_income": 86901,
+      "monthly_emi": 59354,
+      "credit_history_years": 7.695563354919017,
+      "existing_loans": 2,
+      "employment_years": 6.909449223039841
+    },
+    "expected_decision": "REJECT"
+  },
+  {
+    "name": "AutoCase_119",
+    "input": {
+      "monthly_income": 118115,
+      "monthly_emi": 76871,
+      "credit_history_years": 6.6685324065693985,
+      "existing_loans": 3,
+      "employment_years": 8.248804115213368
+    },
+    "expected_decision": "REJECT"
+  }
+]

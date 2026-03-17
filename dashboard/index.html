@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CredLens Dashboard</title>
+<style>
+body{
+font-family: Arial;
+margin:40px;
+}
+
+.card{
+border:1px solid #ddd;
+padding:20px;
+margin:10px;
+width:200px;
+display:inline-block;
+border-radius:10px;
+}
+
+h2{
+margin:0;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>CredLens AI Dashboard</h1>
+
+<div id="stats"></div>
+
+<script>
+
+async function loadStats(){
+
+const res = await fetch("/dashboard/stats")
+const data = await res.json()
+
+const approveRate = ((data.approve / data.total_cases)*100).toFixed(1)
+const rejectRate = ((data.reject / data.total_cases)*100).toFixed(1)
+
+document.getElementById("stats").innerHTML = `
+<div class="card">
+<h2>${data.total_cases}</h2>
+<p>Total Cases</p>
+</div>
+
+<div class="card">
+<h2>${data.approve}</h2>
+<p>Approved (${approveRate}%)</p>
+</div>
+
+<div class="card">
+<h2>${data.reject}</h2>
+<p>Rejected (${rejectRate}%)</p>
+</div>
+
+<div class="card">
+<h2>${data.manual_review}</h2>
+<p>Manual Review</p>
+</div>
+`
+}
+
+loadStats()
+setInterval(loadStats,2000)
+
+</script>
+
+</body>
+</html>

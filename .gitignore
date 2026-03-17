@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# virtual env
+.venv/
+venv/
+
+# env variables
+.env
+
+# database
+*.db
+
+# macOS
+.DS_Store
+
+# models
+*.pt
+*.bin
+
+# huggingface cache
+.cache/huggingface

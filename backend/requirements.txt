@@ -1,0 +1,29 @@
+# Core Backend
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# ML / Risk Scoring
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# RAG / Vector DB
+chromadb==0.5.5
+sentence-transformers==3.0.1
+
+# PDF parsing
+pypdf==4.3.1
+
+# API + utilities
+python-multipart==0.0.9
+sqlmodel
+fpdf2==2.7.9
+streamlit
+requests
+
+# LLM
+openai==1.30.1
+httpx==0.27.0
