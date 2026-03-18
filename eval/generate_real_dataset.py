@@ -4,7 +4,7 @@ from datetime import datetime
 
 CURRENT_YEAR = datetime.now().year
 
-df = pd.read_csv("eval/loans_full_schema.csv")
+df = pd.read_csv("eval/loans_full_schematic.csv")
 
 cases = []
 
