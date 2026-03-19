@@ -22,3 +22,5 @@ venv/
 
 # huggingface cache
 .cache/huggingface
+
+backend/reports/

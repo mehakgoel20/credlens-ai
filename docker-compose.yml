@@ -1,0 +1,18 @@
+
+
+services:
+
+  credlens-api:
+    build: .
+    container_name: credlens-api
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./backend:/app/backend
+      - ./backend/data:/app/backend/data
+      - ~/.cache/huggingface:/root/.cache/huggingface
+
+    environment:
+      - APP_API_KEY=credlens-secret-key
+
+    restart: always

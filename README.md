@@ -1,4 +1,6 @@
-# CredLens AI — Enterprise Credit Decisioning Platform (GenAI + RAG + Guardrails)
+# CredLens AI
+
+**Policy-Grounded Credit Decisioning System**
 
 CredLens AI is an **AI-assisted credit decision engine** designed to simulate how modern fintech companies evaluate loan applications using machine learning, policy retrieval, and explainable AI.
 
@@ -10,6 +12,22 @@ The system combines:
 * Evidence verification
 * Audit logging
 * Real-time monitoring dashboard
+
+---
+
+# 🚀 Live Demo
+
+API Docs
+
+```
+[https://credlens-ai.onrender.com/docs](https://credlens-ai.onrender.com)
+```
+
+Dashboard
+
+```
+https://credlens-ai.onrender.com/dashboard/index.html
+```
 
 ---
 
@@ -69,29 +87,59 @@ all-MiniLM-L6-v2
 
 ### 3️⃣ Deterministic Policy Engine
 
-Hard decision rules ensure regulatory compliance.
+Hard rules run before any ML or LLM call. The decision label is irrevocable.
 
-Example:
+```python
+# Example policy rules (simplified)
+if dti_ratio > 0.50:
+    return Decision.REJECT, "DTI_EXCEEDS_MAXIMUM"
+
+if credit_score < 580:
+    return Decision.REJECT, "CREDIT_SCORE_BELOW_MINIMUM"
+
+if dti_ratio <= 0.35 and credit_score >= 700:
+    return Decision.APPROVE, "STRONG_PROFILE"
+
+return Decision.MANUAL_REVIEW, "BORDERLINE_CASE"
+```
+
+Every threshold maps to a named policy rule. When the policy changes, the rule changes — not the model.
+
+### ML Risk Scoring
+
+A Scikit-Learn classifier computes a continuous risk score (0.0 to 1.0) from:
+
+- Debt-to-Income Ratio
+- Credit Score
+- Employment Stability
+- Existing Loan Count
+- Income vs Requested Loan Amount
+
+The risk score is recorded in the audit log alongside the decision. It does not override the rules engine — it informs the explanation and the MANUAL_REVIEW threshold band.
+
+### RAG Pipeline
+
+Policy documents are embedded and stored in ChromaDB. At inference time:
 
 ```
-DTI > 0.50 → Reject
-DTI ≤ 0.35 → Approve
-Else → Manual Review
+Query: applicant profile + decision context
+   |
+   v
+Embedding model: all-MiniLM-L6-v2 (runs locally)
+   |
+   v
+ChromaDB semantic search -> top-k policy chunks
+   |
+   v
+Context injection into LLM prompt
+   |
+   v
+Structured explanation with policy citations
 ```
 
----
+The embedding model runs locally — no external embedding API call, no additional latency.
 
-### 4️⃣ Explainable AI
-
-Each decision contains:
-
-* reason codes
-* evidence references
-* policy citations
-
----
-
-### 5️⃣ Evidence Verification
+### Evidence Verification
 
 Prevents hallucinated policy citations by validating LLM outputs against retrieved policy chunks.
 
@@ -170,112 +218,51 @@ Infrastructure
 
 ```
 Docker
+Render Deployment
 ```
 
 ---
 
-# 📂 Project Structure
+## Quick Start
 
-```text
-credlens-ai/
-├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── routes_decision.py
-│   │   │   ├── routes_docs.py
-│   │   │   ├── routes_audit.py
-│   │   │   ├── routes_report.py
-│   │   │   └── routes_manual_review.py  (optional)
-│   │   ├── services/
-│   │   │   ├── rag_pipeline.py
-│   │   │   ├── risk_model.py
-│   │   │   ├── decision_agent.py
-│   │   │   ├── evidence_verifier.py
-│   │   │   └── report_generator.py
-│   │   ├── db/
-│   │   │   ├── session.py
-│   │   │   └── models.py
-│   │   ├── core/
-│   │   │   └── security.py
-│   │   ├── utils/
-│   │   │   ├── audit_hash.py
-│   │   │   └── doc_hash.py  (optional)
-│   │   └── main.py
-│   └── .env
-│
-├── frontend/
-│   └── streamlit_app.py
-│
-├── eval/
-│   ├── test_cases.json
-│   └── run_eval.py
-│
-└── ml/
-    ├── train.py
-    └── artifacts/
-        └── risk_model.pkl
+### Prerequisites
 
+- Docker Desktop installed
+- OpenAI API key
 
-## Setup Instructions
+### Run with Docker
 
-### 1) Clone Repo
 ```bash
-git clone <your_repo_url>
+# Clone the repository
+git clone https://github.com/mehakgoel20/credlens-ai.git
 cd credlens-ai
 
-### 2) Backend Setup
+# Build the image
+docker build -t credlens-ai .
 
-```bash
-cd backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+# Run the container
+docker run -p 8000:8000 -e OPENAI_API_KEY=your_key_here credlens-ai
+```
 
-### Create .env inside backend/
-OPENAI_API_KEY=your_openai_key_here
-APP_API_KEY=credlens-secret-key
+### Access
 
-### Run Backend
-uvicorn app.main:app --reload --port 8002
+| Interface            | URL                                              |
+|----------------------|--------------------------------------------------|
+| API Documentation    | http://localhost:8000/docs                       |
+| Monitoring Dashboard | http://localhost:8000/dashboard/index.html       |
+| Health Check         | http://localhost:8000/health                     |
 
-### Swagger UI
-http://127.0.0.1:8002/docs
+---
 
-### 3) Frontend Setup (Streamlit)
-cd ../frontend
-pip install streamlit requests
-streamlit run streamlit_app.py
+## API Reference
 
+### POST /evaluate
 
-## Open:
+Evaluate a loan application.
 
-http://localhost:8501
+**Request body:**
 
-## Authentication
-
-All secured endpoints require the following header:
-X-API-KEY: credlens-secret-key
-
-## Main API Endpoints
-Upload Policy PDF
--> POST /docs/upload
-
-Retrieve Policy Chunks (RAG)
--> POST /retrieve
-
-Make Underwriting Decision
--> POST /decision/
-
-List Audit Cases
--> GET /audit/cases?limit=10
-
-Get Case by ID
--> GET /audit/cases/{case_id}
-
-Download Compliance Report PDF
--> GET /report/{case_id}
-
-Example Decision Output
+```json
 {
   "case_id": 2,
   "case_hash": "65c7ee3e...",
