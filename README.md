@@ -15,22 +15,6 @@ The system combines:
 
 ---
 
-# 🚀 Live Demo
-
-API Docs
-
-```
-[https://credlens-ai.onrender.com/docs](https://credlens-ai.onrender.com)
-```
-
-Dashboard
-
-```
-https://credlens-ai.onrender.com/dashboard/index.html
-```
-
----
-
 # 🧠 System Architecture
 
 ```
